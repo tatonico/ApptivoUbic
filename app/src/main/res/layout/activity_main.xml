@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="ar.edu.ort.apptivo.MainActivity">
+    >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Email:"
+    android:id="@+id/textView2"
+    android:layout_marginTop="64dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignEnd="@+id/btnIngreso" />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtMail"
+    android:hint="juan@gmail.com"
+    android:layout_below="@+id/textView2"
+    android:layout_alignParentStart="true"
+    android:layout_marginStart="43dp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Contraseña:"
+    android:id="@+id/textView3"
+    android:layout_marginTop="29dp"
+    android:layout_below="@+id/edtMail"
+    android:layout_alignStart="@+id/edtPass" />
+
+<Button
+    android:layout_width="100dp"
+    android:layout_height="55dp"
+    android:text="Ingresar"
+    android:id="@+id/btnIngreso"
+    android:layout_marginTop="49dp"
+    android:layout_marginStart="12dp"
+    android:layout_below="@+id/edtPass"
+    android:layout_alignParentStart="true" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="55dp"
+    android:text="Continuar como invitado (*)"
+    android:id="@+id/btnInvitado"
+    android:layout_marginStart="12dp"
+    android:layout_alignTop="@+id/btnIngreso"
+    android:layout_toEndOf="@+id/btnIngreso" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="(*) Si continua como invitado no podra acceder a su ubicacion actual"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Registrar"
+    android:id="@+id/txtRegistrar"
+    android:textColor="#1e5fd7"
+    android:layout_marginTop="19dp"
+    android:layout_below="@+id/btnIngreso"
+    android:layout_alignStart="@+id/btnIngreso"
+    android:layout_marginStart="11dp" />
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:inputType="textPassword"
+    android:ems="10"
+    android:id="@+id/edtPass"
+    android:hint="********"
+    android:layout_below="@+id/textView3"
+    android:layout_alignStart="@+id/edtMail" />
+</RelativeLayout>
+
