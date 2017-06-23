@@ -216,7 +216,7 @@ public class BackgroundTask extends AsyncTask<String, Void, String>
     {
         try{
             Gson gson = new Gson();
-            miUsuario = gson.fromJson(result, Usuario.class);
+            Usuario miUsuario = gson.fromJson(result, Usuario.class);
         }
         catch (Exception e)        {
         }
