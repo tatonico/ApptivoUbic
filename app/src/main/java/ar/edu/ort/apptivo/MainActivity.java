@@ -1,27 +1,26 @@
 package ar.edu.ort.apptivo;
 
-        import android.content.Intent;
-        import android.os.AsyncTask;
-        import android.support.v7.app.AppCompatActivity;
-        import android.os.Bundle;
-        import android.text.Html;
-        import android.text.method.LinkMovementMethod;
-        import android.util.Log;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.EditText;
-        import android.widget.TextView;
-        import android.widget.Toast;
+import android.content.Intent;
+import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
-        import com.google.gson.Gson;
+import com.google.gson.Gson;
 
-        import java.io.IOException;
-        import java.util.regex.Matcher;
-        import java.util.regex.Pattern;
+import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-        import okhttp3.OkHttpClient;
-        import okhttp3.Request;
-        import okhttp3.Response;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     EditText edtPass;
     TextView lblRegistrar;
     public Usuario miUsuario;
-    Button btnIngreso, btnNoAccount;
+    Button btnIngreso, btnNoAccount, btnRegistrar;
     String strUser= "tato@gmail.com";
     String strPass= "12345678";
     @Override
@@ -38,35 +37,37 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ObtenerReferencias();
         SetearListeners();
-        lblRegistrar.setClickable(true);
-        lblRegistrar.setMovementMethod(LinkMovementMethod.getInstance());
-        String text = "<a href='http://www.google.com'> Registrar(Google x ahora) </a>";
-        lblRegistrar.setText(Html.fromHtml(text));
-    }
+
+            }
 
     private void ObtenerReferencias(){
         edtMail=(EditText) findViewById(R.id.edtMail);
         edtPass=(EditText) findViewById(R.id.edtPass);
-        lblRegistrar = (TextView) findViewById(R.id.txtRegistrar);
         btnIngreso = (Button) findViewById(R.id.btnIngreso);
+        btnRegistrar = (Button) findViewById(R.id.btnRegistrar);
         btnNoAccount=(Button)findViewById(R.id.btnInvitado);
-
-        lblRegistrar.setText(   Html.fromHtml(
-                "<a href=\"http://www.google.com\">Registrar(Por ahora google)</a> "));
-        lblRegistrar.setMovementMethod(LinkMovementMethod.getInstance());
-
     }
 
 
     private void SetearListeners(){
         btnNoAccount.setOnClickListener(ClickInv);
         btnIngreso.setOnClickListener(Click);
+        btnRegistrar.setOnClickListener(ClickReg);
     }
     View.OnClickListener ClickInv = new View.OnClickListener(){
         @Override
         public void onClick(View v)
         {
             Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
+            startActivity(intent);
+        }
+    };
+    View.OnClickListener ClickReg = new View.OnClickListener(){
+        @Override
+        public void onClick(View v)
+        {
+            Uri uri = Uri.parse("http://www.google.com");
+            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
             startActivity(intent);
         }
     };
@@ -123,8 +124,9 @@ public class MainActivity extends AppCompatActivity {
             if (UsoWebSErvice) {
                 if(usuario.Mail != "") {
                     Intent intent = new Intent(getApplicationContext(), MapsActivity.class);
-                    intent.putExtra("idUser", usuario.Id);
+                    StaticItem.setObjeto(usuario);
                     startActivity(intent);
+                    finish();
                 }
                 else
                 {
@@ -132,25 +134,27 @@ public class MainActivity extends AppCompatActivity {
                     msg.show();
                 }
             }else {
+                Usuario us= gson.fromJson(datos, Usuario.class);
                 Intent intent = new Intent(getApplicationContext(), MapsActivity.class);
-                intent.putExtra("iduser", usuario.Id);
+                StaticItem.setObjeto(us);
                 startActivity(intent);
+                finish();
             }
         }
         @Override
         protected Usuario doInBackground(String... parametros) {
-                OkHttpClient client = new OkHttpClient();
-                String Url= parametros[3]+ "?" + parametros[1] +"?"+parametros[2];
-                Request request = new Request.Builder()
-                        .url(Url)
-                        .build();
-                try {
-                    Response response = client.newCall(request).execute();  // Llamo al API Rest servicio1 en localhost
-                    String resultado = response.body().string();
-                    Gson gson = new Gson();
-                    miUsuario = gson.fromJson(resultado, Usuario.class);
-                    return miUsuario;
-                } catch (IOException e) {
+            OkHttpClient client = new OkHttpClient();
+            String Url= parametros[3]+ "?" + parametros[1] +"?"+parametros[2];
+            Request request = new Request.Builder()
+                    .url(Url)
+                    .build();
+            try {
+                Response response = client.newCall(request).execute();  // Llamo al API Rest servicio1 en localhost
+                String resultado = response.body().string();
+                Gson gson = new Gson();
+                miUsuario = gson.fromJson(resultado, Usuario.class);
+                return miUsuario;
+            } catch (IOException e) {
                 Log.d("Error",e.getMessage());             // Error de Network
                 return new Usuario();
             }
