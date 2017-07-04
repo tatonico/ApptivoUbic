@@ -66,7 +66,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+        mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 
         //Initialize Google Play Services
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -124,7 +124,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
         MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
-        markerOptions.title("Current Position");
+        markerOptions.title("Posicion actual para Polshu.");
         markerOptions.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_MAGENTA));
         mCurrLocationMarker = mMap.addMarker(markerOptions);
 
