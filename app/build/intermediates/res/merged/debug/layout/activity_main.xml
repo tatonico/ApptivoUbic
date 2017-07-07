@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,13 +18,13 @@
 
     <EditText
         android:id="@+id/edtMail"
-        android:layout_width="200dp"
+        android:layout_width="320dp"
         android:layout_height="50dp"
-        android:hint="Email"
-        android:textSize="24sp"
-        android:layout_marginBottom="17dp"
         android:layout_above="@+id/edtPass"
-        android:layout_alignStart="@+id/edtPass" />
+        android:layout_alignStart="@+id/edtPass"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/btnIngreso"
@@ -66,14 +71,24 @@
 
     <EditText
         android:id="@+id/edtPass"
-        android:layout_width="wrap_content"
+        android:layout_width="320dp"
         android:layout_height="50dp"
+        android:layout_above="@+id/btnIngreso"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textSize="22sp"
-        android:layout_marginBottom="71dp"
-        android:layout_alignBottom="@+id/btnIngreso"
-        android:layout_alignStart="@+id/btnIngreso" />
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        app:srcCompat="@drawable/bondifoto" />
 </RelativeLayout>
+    </android.support.v4.widget.DrawerLayout>
 
