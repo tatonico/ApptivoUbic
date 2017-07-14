@@ -46,6 +46,7 @@ ADDED from C:\GitPro\ApptivoUbic\app\src\main\AndroidManifest.xml:19:5-79
 		ADDED from C:\GitPro\ApptivoUbic\app\src\main\AndroidManifest.xml:19:22-76
 application
 ADDED from C:\GitPro\ApptivoUbic\app\src\main\AndroidManifest.xml:21:5-53:19
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.github.fafaldo\fab-toolbar\1.2.0\AndroidManifest.xml:11:5-14:19
 MERGED from [com.google.android.gms:play-services:8.4.0] C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:24:5-20
@@ -122,6 +123,7 @@ ADDED from C:\GitPro\ApptivoUbic\app\src\main\AndroidManifest.xml:49:9-52:68
 		ADDED from C:\GitPro\ApptivoUbic\app\src\main\AndroidManifest.xml:50:13-53
 uses-sdk
 INJECTED from C:\GitPro\ApptivoUbic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.github.fafaldo\fab-toolbar\1.2.0\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.android.gms:play-services:8.4.0] C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
 MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:18:5-42
