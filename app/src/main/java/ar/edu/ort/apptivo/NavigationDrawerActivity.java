@@ -193,7 +193,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
     }
     @Override
     public void onConnectionSuspended(int i) {
-        Toast.makeText(this, "Se ha perdido la conexion.", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Se ha perdido la conexion", Toast.LENGTH_SHORT).show();
         mMap.clear();
     }
 
