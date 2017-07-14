@@ -1,5 +1,6 @@
 package ar.edu.ort.apptivo;
 
+
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         ObtenerReferencias();
         SetearListeners();
 
-            }
+    }
 
     private void ObtenerReferencias(){
         edtMail=(EditText) findViewById(R.id.edtMail);
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v)
         {
-            Intent intent = new Intent(getApplicationContext(),MapsActivity.class);
+            Intent intent = new Intent(getApplicationContext(),NavigationDrawerActivity.class);
             startActivity(intent);
         }
     };
