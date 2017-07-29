@@ -41,6 +41,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 import java.util.List;
 
@@ -111,8 +112,15 @@ public class NavigationDrawerActivity extends AppCompatActivity
                     .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
                             Toast.makeText(NavigationDrawerActivity.this, "Gracias por indicar", Toast.LENGTH_SHORT).show();
-                            drawCircle(getLocationFromAddress(NavigationDrawerActivity.this,edtllegada.getText().toString()));
-                            drawCircle(getLocationFromAddress(NavigationDrawerActivity.this,edtpartida.getText().toString()));
+                            LatLng latlngPartida = getLocationFromAddress(NavigationDrawerActivity.this,edtpartida.getText().toString());
+                            LatLng latlngLlegada = getLocationFromAddress(NavigationDrawerActivity.this,edtllegada.getText().toString());
+                            mMap.clear();
+                            mMap.addMarker(new MarkerOptions()
+                                    .position(latlngLlegada)
+                                    .title("Llegada"));
+                            mMap.addMarker(new MarkerOptions()
+                                    .position(latlngPartida)
+                                    .title("Partida"));
                         }
                     })
                     .setNegativeButton("No", new DialogInterface.OnClickListener() {
