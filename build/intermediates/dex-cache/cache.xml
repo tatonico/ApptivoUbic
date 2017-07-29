@@ -39,15 +39,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_eae04751b2ac65ce893c34f997252f917d788ba5.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -75,21 +66,147 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_3d5079b3c1e5191abd9604aa0a6e1a92e074a578.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-8.4.0_4401d78925c538a0db479c427ff9bbf3816f9c3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-8.4.0_692d4c89b116e10c44f7ac09e11c0f8145286823.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tato_\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\okio-1.9.0_197b738d1186344504bbbd123d36aa3e24cc3837.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.4.0_07216696c6d1a6fe700011e67357d96e17567bb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-8.4.0_abae29d3ef9c56d84cd68911774e801082472cd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-8.4.0_321a9d8d74755d343c3ce40e72c464edc8c1e612.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-8.4.0_a188c6ead3b25124b8ddf93aec3ac9346a3b8a66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_3f041aded612e5f6fd704590697d9536bfe1389e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-8.4.0_36ec32a342c5af3f114169245a83f64fa3980fc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_3e3ad23cfa72b27eb56971b0fcc470b7037ff7e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-8.4.0_6c6bc3406a6297ba8998588e4cdc1f9d1b0057ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_515f16d1531b37cc7bd88ba6b084b142137b33d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tato_\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\gson-2.4_90b37cd84fa33f1e634be12c11d637f721442657.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_eae04751b2ac65ce893c34f997252f917d788ba5.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
         <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-8.4.0_5832adcbcfe145eb287371dbd1ef2e526ddcddba.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrador\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\okio-1.9.0_ee34e5109020ab3d7408a1b18e2a041b74e265a8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,15 +237,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Administrador\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_a766354bc657b2452826fa854a806161fff04cae.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -138,21 +246,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jar="C:\Users\tato_\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_3d5079b3c1e5191abd9604aa0a6e1a92e074a578.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-8.4.0_4401d78925c538a0db479c427ff9bbf3816f9c3b.jar" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_0fcc2440ba909f27ce342aa0bb27519ded9bacd8.jar" />
     </item>
     <item
         is-multidex="false"
@@ -165,12 +264,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jar="C:\Users\tato_\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-8.4.0_692d4c89b116e10c44f7ac09e11c0f8145286823.jar" />
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_12acc6f3bf7b1240cce1fcc9b48ab8156efa7a1b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,30 +282,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jar="C:\Users\tato_\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-8.4.0_07216696c6d1a6fe700011e67357d96e17567bb5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Administrador\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\gson-2.4_391e1ea8c1e157f2bbf993e961189fd6e3a898f1.jar" />
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_f9db1e223269b684e7873247c715c2f2293e4716.jar" />
     </item>
     <item
         is-multidex="false"
@@ -228,75 +309,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-8.4.0_abae29d3ef9c56d84cd68911774e801082472cd5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-8.4.0_321a9d8d74755d343c3ce40e72c464edc8c1e612.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_d31a167c7da9dca1386058f21638aa5805ce0762.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-8.4.0_a188c6ead3b25124b8ddf93aec3ac9346a3b8a66.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-23.0.0_3f041aded612e5f6fd704590697d9536bfe1389e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_fc18a0fdc80391aaf9a93e629f1a6f03cf6a9cf4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-8.4.0_36ec32a342c5af3f114169245a83f64fa3980fc0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_3e3ad23cfa72b27eb56971b0fcc470b7037ff7e5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -318,30 +336,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-8.4.0_6c6bc3406a6297ba8998588e4cdc1f9d1b0057ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.3"
         sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
         <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-8.4.0_3bb66f21e608b3076d9bcd69e9a10ac2d140c056.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\GitPro\ApptivoUbic\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\GitPro\ApptivoUbic\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_515f16d1531b37cc7bd88ba6b084b142137b33d2.jar" />
     </item>
     <item
         is-multidex="false"
