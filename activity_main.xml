@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wallet_highlighted_text_holo_dark"
+    android:scrollbars="horizontal"
+    tools:context="ar.edu.ort.apptivo.MainActivity"><![CDATA[
+    >
+
+]]>
+
+    <EditText
+        android:id="@+id/edtMail"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/edtPass"
+        android:layout_alignStart="@+id/edtPass"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnIngreso"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Ingresar"
+        android:layout_above="@+id/btnRegistrar"
+        android:layout_alignStart="@+id/btnRegistrar"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Registrar"
+        android:layout_above="@+id/btnInvitado"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp" />
+
+    <Button
+        android:id="@+id/btnInvitado"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Continuar como invitado (*)"
+        android:textSize="10sp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(*) Si continua como invitado no podra acceder a su ubicacion actual"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp" />
+
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/btnIngreso"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        app:srcCompat="@drawable/bondifoto" />
+</RelativeLayout>
+
+
