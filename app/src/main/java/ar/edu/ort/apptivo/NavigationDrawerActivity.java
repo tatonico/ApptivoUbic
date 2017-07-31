@@ -118,12 +118,13 @@ public class NavigationDrawerActivity extends AppCompatActivity
                             /*drawCircle(latlngLlegada, "#E41436");
                             drawCircle(latlngPartida, "#30BA59");*/
 
-                            mMap.addMarker(new MarkerOptions()
-                                    .position(latlngLlegada)
-                                    .title("Llegada"));
+
                             mMap.addMarker(new MarkerOptions()
                                     .position(latlngPartida)
                                     .title("Partida"));
+                            mMap.addMarker(new MarkerOptions()
+                                    .position(latlngLlegada)
+                                    .title("Llegada"));
 
                         }
                     })
