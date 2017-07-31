@@ -115,12 +115,16 @@ public class NavigationDrawerActivity extends AppCompatActivity
                             LatLng latlngPartida = getLocationFromAddress(NavigationDrawerActivity.this,edtpartida.getText().toString());
                             LatLng latlngLlegada = getLocationFromAddress(NavigationDrawerActivity.this,edtllegada.getText().toString());
                             mMap.clear();
+                            /*drawCircle(latlngLlegada, "#E41436");
+                            drawCircle(latlngPartida, "#30BA59");*/
+
                             mMap.addMarker(new MarkerOptions()
                                     .position(latlngLlegada)
                                     .title("Llegada"));
                             mMap.addMarker(new MarkerOptions()
                                     .position(latlngPartida)
                                     .title("Partida"));
+
                         }
                     })
                     .setNegativeButton("No", new DialogInterface.OnClickListener() {
@@ -267,7 +271,8 @@ public class NavigationDrawerActivity extends AppCompatActivity
         markerOptions.position(latLng);
         markerOptions.title("Posicion actual para Polshu.");
         mCurrLocationMarker = mMap.addMarker(markerOptions);*/
-        drawCircle(latLng);
+        drawCircle(latLng, "#3684D7");
+
 
         //move map camera
         mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
@@ -350,7 +355,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             // You can add here other case statements according to your requirement.
         }
     }
-    private void drawCircle(LatLng point){
+    private void drawCircle(LatLng point, String color){
         Log.d("En: ", Double.toString(point.latitude)+Double.toString(point.longitude));
         // Instantiating CircleOptions to draw a circle around the marker
         CircleOptions circleOptions = new CircleOptions();
@@ -359,9 +364,9 @@ public class NavigationDrawerActivity extends AppCompatActivity
         // Radius of the circle
         circleOptions.radius(0);
         // Border color of the circle
-        circleOptions.strokeColor(Color.parseColor("#3684D7"));
+        circleOptions.strokeColor(Color.parseColor(color));
         // Fill color of the circle
-        circleOptions.fillColor(Color.parseColor("#3684D7"));
+        circleOptions.fillColor(Color.parseColor(color));
         // Border width of the circle
         circleOptions.strokeWidth(0);
         // Adding the circle to the GoogleMap

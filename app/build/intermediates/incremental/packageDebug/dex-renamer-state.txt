@@ -1,4 +1,4 @@
-#Sat Jul 29 18:41:02 ART 2017
+#Sat Jul 29 19:33:29 ART 2017
 base.0=C\:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Jul 29 18:41:02 ART 2017
+#Sat Jul 29 19:33:29 ART 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\abc_dialog_material_background_light.xml
 14.set=ANDROID_RESOURCE
