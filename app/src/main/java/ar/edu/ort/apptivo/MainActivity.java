@@ -119,8 +119,9 @@ public class MainActivity extends AppCompatActivity {
 
         protected void onPostExecute(Usuario usuario) {
             super.onPostExecute(usuario);
-            Gson gson = new Gson();
             Boolean UsoWebSErvice = true;
+            Gson gson = new Gson();
+
             String datos = ApiMock.getLogin();
             if (UsoWebSErvice) {
                 if(usuario.Mail != "") {
