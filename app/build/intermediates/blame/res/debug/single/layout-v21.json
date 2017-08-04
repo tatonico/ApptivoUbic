@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7f5c940096719713428351816d4027543426b8f8\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-location\\8.4.0\\res\\layout-v21\\place_autocomplete_fragment.xml"
     },

@@ -12,7 +12,15 @@
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
+        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

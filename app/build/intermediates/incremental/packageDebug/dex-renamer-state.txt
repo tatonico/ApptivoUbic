@@ -1,4 +1,7 @@
-#Sat Jul 29 19:33:29 ART 2017
-base.0=C\:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Thu Aug 03 20:57:27 ART 2017
+base.0=C\:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_60124ba0ec4901e968f9f3bd90f0c8861face28d
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=C\:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=C\:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e6537aceff3b2fcbc249cf28c97e3ceeeb0839b1\\classes.dex
+base.1=C\:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e6537aceff3b2fcbc249cf28c97e3ceeeb0839b1
+file.0=C\:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_60124ba0ec4901e968f9f3bd90f0c8861face28d\\classes.dex

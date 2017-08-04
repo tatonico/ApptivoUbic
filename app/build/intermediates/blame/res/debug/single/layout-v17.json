@@ -4,6 +4,10 @@
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout-v17\\mr_media_route_list_item.xml"
     },
     {
+        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\mr_media_route_list_item.xml",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\layout-v17\\mr_media_route_list_item.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\mr_media_route_list_item.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout-v17\\mr_media_route_list_item.xml"
     }
