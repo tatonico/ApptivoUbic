@@ -1,7 +1,7 @@
-#Thu Aug 10 22:02:59 ART 2017
-base.0=C\:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_60124ba0ec4901e968f9f3bd90f0c8861face28d
+#Fri Aug 11 09:03:02 ART 2017
+base.0=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fb3fc9f503b2216f4d134fbcdd191b2e2bb62276
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e6537aceff3b2fcbc249cf28c97e3ceeeb0839b1\\classes.dex
-base.1=C\:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_e6537aceff3b2fcbc249cf28c97e3ceeeb0839b1
-file.0=C\:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_60124ba0ec4901e968f9f3bd90f0c8861face28d\\classes.dex
+file.1=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_37deee9ed76f54744fa174603b8a576b41076684\\classes.dex
+base.1=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_37deee9ed76f54744fa174603b8a576b41076684
+file.0=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fb3fc9f503b2216f4d134fbcdd191b2e2bb62276\\classes.dex

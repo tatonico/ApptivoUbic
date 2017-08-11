@@ -234,6 +234,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         mMap = googleMap;
         mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 
+
         //Initialize Google Play Services
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             if (ContextCompat.checkSelfPermission(this,
@@ -287,11 +288,12 @@ public class NavigationDrawerActivity extends AppCompatActivity
         markerOptions.title("Posicion actual para Polshu.");
         mCurrLocationMarker = mMap.addMarker(markerOptions);*/
         drawCircle(latLng, "#3684D7");
-
+        Log.d("latlngformat", latLng.toString());
 
         //move map camera
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(11));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15));
+        /*mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(14));*/
 
         //stop location updates
         if (mGoogleApiClient != null) {
@@ -395,7 +397,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         // Destination of route
         String str_dest = "destination=" + dest.latitude + "," + dest.longitude;
 
-        String mode = "mode=transit";
+        String mode = "mode=transit&alternatives=true";
 
         // Sensor enabled
         String sensor = "sensor=false";
@@ -411,7 +413,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters;
         //maps.googleapis.com/maps/api/directions/json?origin=Brooklyn&destination=Queens&mode=transit&key=YOUR_API_KEY
 
-
+Log.d("URL", url);
         return url;
 
     }
@@ -558,6 +560,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             } catch (Exception e) {
                 e.printStackTrace();
             }
+            Log.i("RUTA", routes.toString());
             return routes;
         }
 
@@ -592,6 +595,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         }}
     public void DibujarCamino(LatLng latlngOne, LatLng latlngTwo){
         String url = getMapsApiDirectionsUrl(latlngOne, latlngTwo);
+        Log.d("URL",url);
         ReadTask downloadTask = new ReadTask();
         // Start downloading json data from Google Directions API
         downloadTask.execute(url);

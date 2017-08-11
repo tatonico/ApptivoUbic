@@ -8,8 +8,16 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\src\\main\\res\\menu\\activity_navigation_drawer_drawer.xml"
     },
     {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_drawer.xml",
+        "source": "C:\\ApptivoUbic\\app\\src\\main\\res\\menu\\navigation_drawer.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer_drawer.xml",
         "source": "C:\\ApptivoUbic\\ApptivoUbic\\app\\src\\main\\res\\menu\\activity_navigation_drawer_drawer.xml"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer_drawer.xml",
+        "source": "C:\\ApptivoUbic\\app\\src\\main\\res\\menu\\activity_navigation_drawer_drawer.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_drawer.xml",

@@ -119,13 +119,13 @@ public class MainActivity extends AppCompatActivity {
 
         protected void onPostExecute(Usuario usuario) {
             super.onPostExecute(usuario);
-            Boolean UsoWebSErvice = true;
+            Boolean UsoWebSErvice =true;
             Gson gson = new Gson();
 
             String datos = ApiMock.getLogin();
             if (UsoWebSErvice) {
                 if(usuario.Mail != "") {
-                    Intent intent = new Intent(getApplicationContext(), MapsActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), NavigationDrawerActivity.class);
                     StaticItem.setObjeto(usuario);
                     startActivity(intent);
                     finish();
@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }else {
                 Usuario us= gson.fromJson(datos, Usuario.class);
-                Intent intent = new Intent(getApplicationContext(), MapsActivity.class);
+                Intent intent = new Intent(getApplicationContext(), NavigationDrawerActivity.class);
                 StaticItem.setObjeto(us);
                 startActivity(intent);
                 finish();

@@ -13,7 +13,7 @@ public class ApiMock {
         strREturnValue += "         Nombre : 'Martin',";
         strREturnValue += "         Apellido: 'Izra' ,";
         strREturnValue += "         Sexo: 'Masculino'";
-        strREturnValue += "         Mail: 'tatonico@gmail.com'";
+        strREturnValue += "         Mail: 'tato@gmail.com'";
         strREturnValue += "         Contrasena: 'xxxxx'";
         strREturnValue += "}";
         return strREturnValue;

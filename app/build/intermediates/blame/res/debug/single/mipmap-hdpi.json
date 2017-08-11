@@ -4,6 +4,10 @@
         "source": "C:\\ApptivoUbic\\ApptivoUbic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\ApptivoUbic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },

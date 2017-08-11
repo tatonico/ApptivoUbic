@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\mr_media_route_list_item.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\layout-v17\\mr_media_route_list_item.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\layout-v17\\mr_media_route_list_item.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\layout-v17\\mr_media_route_list_item.xml"
     },
