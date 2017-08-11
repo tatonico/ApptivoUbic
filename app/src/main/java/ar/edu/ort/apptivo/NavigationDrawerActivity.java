@@ -395,18 +395,21 @@ public class NavigationDrawerActivity extends AppCompatActivity
         // Destination of route
         String str_dest = "destination=" + dest.latitude + "," + dest.longitude;
 
+        String mode = "mode=transit";
 
         // Sensor enabled
         String sensor = "sensor=false";
+        String key = "key=IzaSyDfgAa6EV-cDddFKl8MV1hWVoiMXJ9j4rc";
 
         // Building the parameters to the web service
-        String parameters = str_origin + "&" + str_dest + "&" + sensor;
+        String parameters = str_origin + "&" + str_dest + "&" + mode /*+ "&" + key*/;
 
         // Output format
         String output = "json";
 
         // Building the url to the web service
         String url = "https://maps.googleapis.com/maps/api/directions/" + output + "?" + parameters;
+        //maps.googleapis.com/maps/api/directions/json?origin=Brooklyn&destination=Queens&mode=transit&key=YOUR_API_KEY
 
 
         return url;
