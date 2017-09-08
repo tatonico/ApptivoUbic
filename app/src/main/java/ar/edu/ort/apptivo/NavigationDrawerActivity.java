@@ -206,8 +206,11 @@ public class NavigationDrawerActivity extends AppCompatActivity
             int id = item.getItemId();
 
             //noinspection SimplifiableIfStatement
-            if (id == R.id.action_settings) {
-                return true;
+            if (id == R.id.nav_camera) {
+                Toast.makeText(this, "Raios", Toast.LENGTH_SHORT).show();
+            }
+            if (id == R.id.nav_gallery) {
+                Toast.makeText(this, "Raiosxxxx", Toast.LENGTH_SHORT).show();
             }
 
             return super.onOptionsItemSelected(item);

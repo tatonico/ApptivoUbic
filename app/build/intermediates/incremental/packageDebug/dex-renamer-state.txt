@@ -1,4 +1,4 @@
-#Fri Sep 08 10:38:13 ART 2017
+#Fri Sep 08 11:49:11 ART 2017
 base.0=C\:\\App\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1991b4346aa9a6c06ed73ad094baffc35154c498
 renamed.1=classes.dex
 renamed.0=classes2.dex
