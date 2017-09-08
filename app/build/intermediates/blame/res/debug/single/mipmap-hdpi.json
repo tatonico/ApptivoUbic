@@ -14,5 +14,9 @@
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

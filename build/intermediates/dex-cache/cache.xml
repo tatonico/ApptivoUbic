@@ -8,7 +8,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\App\ApptivoUbic\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1991b4346aa9a6c06ed73ad094baffc35154c498\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -17,25 +26,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="9cad249cf62751a323d9af568caf12284b7d6062">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d467fe8b6ce7700b68b9bcea3ad07d65c11ccbb3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fc18a0fdc80391aaf9a93e629f1a6f03cf6a9cf4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\320770101d25cf09e62f2ee923992912399cee64\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef366f66bc736a297b2fe1167d5bbf2f04169cfd\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d467fe8b6ce7700b68b9bcea3ad07d65c11ccbb3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -44,52 +35,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6681613afeab5baf00a263bb36853be3f9c061f2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\09d39b97587aa8e576955c6190822951bf36cacd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbf744cc23f513786065874d9e5e4b0c997c73a2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\1ac52e988e008c21cd1fad01693e12465dc3eb6d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8ca6cf46856d2fa03124398df6e10f4c8b3ebf4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\6c741cdd58958971e8a2df588410350ac14b6dad\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="04de44f90606c77f3b28cf44861f306290505aac">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4e504cbb95c9bb2c86ed21922bd11bd9626a33a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\b4ae9a85529d789a9750e8ffcc34bb432ccaefdc\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4452a697eedece028b2c85e2d6d8127f15d932c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\8914429d55bb245725310cd96f9419a6158438bd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f66226a7479a3301fe7b7d474d0e1da5c4580c6\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6681613afeab5baf00a263bb36853be3f9c061f2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -98,7 +44,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31cdff959e45e84698b0e401d84ca4fe388f2f11\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31cdff959e45e84698b0e401d84ca4fe388f2f11\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -107,16 +53,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="1a78298e7724d5440d210bcb946b3493250d354d">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b526edb60f2aa7e18926306c99c8e125f009243\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\c72339a4f040201370f50c1ba34562c3ef66ec51\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_76014ea8e70bf68c88af7ad3e1671d9c4799677c\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b526edb60f2aa7e18926306c99c8e125f009243\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -125,7 +62,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8a4cf05ea5028ececfcdccd9fae2fbb4e4cca28b\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8a4cf05ea5028ececfcdccd9fae2fbb4e4cca28b\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -134,43 +71,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3648a5e5a887e9065e70f1396e00ae2506dbe8e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\fb59278f5a420800cc7df9516cbdf04f328447a7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9c35e3f17cb8754c4894ba887634e4cbcc4b77b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\1d75914ae7b075ff2691712c89324199113806d4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9cbfc0d4e54c116da566b3450388a1b29501b12e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\6809141377107371272303f81fcc91e672b73fe7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e79f603c5f804a41226b31b62b7eeda4696549f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\00c37a3ae2200c7e3f47341639d8df448267c148\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94479c1c5c84e0246432e7186b21a4eca2d22b77\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3648a5e5a887e9065e70f1396e00ae2506dbe8e8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -179,7 +80,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17a1e4e64f4072a6072db4bd9abbad7828703d6f\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_17a1e4e64f4072a6072db4bd9abbad7828703d6f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -188,43 +89,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_391e1ea8c1e157f2bbf993e961189fd6e3a898f1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\07cdda49d4933036e0291f69c11bf32786e41bdc\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e7707c6f1018f1e54ee627e2b9d16b8e7b6d6f8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\a96fef3690959b83c44add5540076f682da4ddc3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="914655ea8bbd3367dd5cebf2282e636cd3d95389">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c7cb3d499fe84dccce3a202e0baa1928fe2490ac\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\473beb4564c365d49754adbc5c489fbc274b539d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_631de3358271ecb3ba9c196e44aa20096552b98d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_a766354bc657b2452826fa854a806161fff04cae\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_391e1ea8c1e157f2bbf993e961189fd6e3a898f1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -233,7 +98,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_ee34e5109020ab3d7408a1b18e2a041b74e265a8\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_ee34e5109020ab3d7408a1b18e2a041b74e265a8\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -242,16 +107,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc75044452ed951920bea742684e4d7d9eeb920c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab6200de92ab829d11587499b203ac14ef361880\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc75044452ed951920bea742684e4d7d9eeb920c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -260,7 +116,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="551e78f21acf69ebfb489c0e79647824c838013e">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_199e47b61902b85d2a4b89fa344ace70cfee6382\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_199e47b61902b85d2a4b89fa344ace70cfee6382\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -269,7 +125,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_411be4a52c79f49d2c9147366779ed3000de89b3\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_411be4a52c79f49d2c9147366779ed3000de89b3\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -278,7 +134,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58d42360d025f9bbf9333f9c1a52c923c2589b29\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58d42360d025f9bbf9333f9c1a52c923c2589b29\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -287,16 +143,16 @@
         optimize="true"
         revision="25.0.0"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c9d9ddc2a3799f0e52e5e3264f27db4d052d273\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c9d9ddc2a3799f0e52e5e3264f27db4d052d273\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\b847395b29fe136ddfc66f15dd24ad1fb5156332\output\jars\classes.jar"
+        jar="C:\App\ApptivoUbic\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6012cf1d2b47918ed672abf51df7d64394cbac50\classes.dex" />
+        sha1="05d79aae6efc999be7137d44fd1faa9a94343853">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6bad8fad809acc367e0b50a4410ec3639acd5a35\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -305,7 +161,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f9962a71781a640ff52415174e2eccdcb2891f19\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f9962a71781a640ff52415174e2eccdcb2891f19\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -314,43 +170,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_5d5ac5a44d57e4e7608604b48a5fb7c03a5ab075\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\output\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_3347aad4c17ff687a85088378402295a3b5c347a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\ApptivoUbic\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="68e71c7b050135dd57e35e6657ece6781c54561e">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_37deee9ed76f54744fa174603b8a576b41076684\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\ApptivoUbic\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fb3fc9f503b2216f4d134fbcdd191b2e2bb62276\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Administrador\.android\build-cache\ada5132ec78bd2d10ae03b278eebb1a7f7a1ea0d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64aab94a6987f5b2dfb47f8e95e85aaa9f1e4884\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_5d5ac5a44d57e4e7608604b48a5fb7c03a5ab075\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -359,7 +179,7 @@
         optimize="true"
         revision="25.0.0"
         sha1="a8412b654dab86d57bf90683367488211c8a81f1">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d39c25f6e2fb1ab10af0d749a0ade85f40d82f2\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d39c25f6e2fb1ab10af0d749a0ade85f40d82f2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -368,7 +188,187 @@
         optimize="true"
         revision="25.0.0"
         sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
-        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b8201d5ecbf487706f0239b389a21fd9872b336\classes.dex" />
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b8201d5ecbf487706f0239b389a21fd9872b336\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_fc18a0fdc80391aaf9a93e629f1a6f03cf6a9cf4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\320770101d25cf09e62f2ee923992912399cee64\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef366f66bc736a297b2fe1167d5bbf2f04169cfd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\09d39b97587aa8e576955c6190822951bf36cacd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cbf744cc23f513786065874d9e5e4b0c997c73a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\1ac52e988e008c21cd1fad01693e12465dc3eb6d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8ca6cf46856d2fa03124398df6e10f4c8b3ebf4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\6c741cdd58958971e8a2df588410350ac14b6dad\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4e504cbb95c9bb2c86ed21922bd11bd9626a33a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\b4ae9a85529d789a9750e8ffcc34bb432ccaefdc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f4452a697eedece028b2c85e2d6d8127f15d932c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\8914429d55bb245725310cd96f9419a6158438bd\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4f66226a7479a3301fe7b7d474d0e1da5c4580c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\c72339a4f040201370f50c1ba34562c3ef66ec51\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_76014ea8e70bf68c88af7ad3e1671d9c4799677c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\fb59278f5a420800cc7df9516cbdf04f328447a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9c35e3f17cb8754c4894ba887634e4cbcc4b77b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\1d75914ae7b075ff2691712c89324199113806d4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9cbfc0d4e54c116da566b3450388a1b29501b12e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\6809141377107371272303f81fcc91e672b73fe7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e79f603c5f804a41226b31b62b7eeda4696549f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\00c37a3ae2200c7e3f47341639d8df448267c148\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94479c1c5c84e0246432e7186b21a4eca2d22b77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\07cdda49d4933036e0291f69c11bf32786e41bdc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e7707c6f1018f1e54ee627e2b9d16b8e7b6d6f8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\473beb4564c365d49754adbc5c489fbc274b539d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_631de3358271ecb3ba9c196e44aa20096552b98d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_a766354bc657b2452826fa854a806161fff04cae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ab6200de92ab829d11587499b203ac14ef361880\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\b847395b29fe136ddfc66f15dd24ad1fb5156332\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6012cf1d2b47918ed672abf51df7d64394cbac50\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_3347aad4c17ff687a85088378402295a3b5c347a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\1be8541b9f30ec20f3c20e723275bcca3414ac20\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="914655ea8bbd3367dd5cebf2282e636cd3d95389">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d7d6e87261ba23266c32f9c15776975469c5e384\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Administrador\.android\build-cache\ada5132ec78bd2d10ae03b278eebb1a7f7a1ea0d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="C:\App\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_64aab94a6987f5b2dfb47f8e95e85aaa9f1e4884\classes.dex" />
     </item>
 
 </items>

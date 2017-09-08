@@ -3405,7 +3405,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0d0086;
         public static final int action_mode_bar_stub=0x7f0d0085;
         public static final int action_mode_close_button=0x7f0d006b;
-        public static final int action_settings=0x7f0d00de;
+        public static final int action_settings=0x7f0d00dc;
         public static final int activity_chooser_view_content=0x7f0d006c;
         public static final int adjust_height=0x7f0d003d;
         public static final int adjust_width=0x7f0d003e;
@@ -3519,8 +3519,6 @@ containing a value of this type.
         public static final int myEditText2=0x7f0d00a4;
         public static final int nav_camera=0x7f0d00da;
         public static final int nav_gallery=0x7f0d00db;
-        public static final int nav_send=0x7f0d00dd;
-        public static final int nav_share=0x7f0d00dc;
         public static final int nav_view=0x7f0d00a1;
         public static final int navigation_header_container=0x7f0d00b2;
         public static final int never=0x7f0d0045;

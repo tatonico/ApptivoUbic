@@ -8,8 +8,16 @@
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
@@ -42,6 +50,10 @@
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",

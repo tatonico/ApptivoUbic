@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_small_off_client.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-tvdpi\\ic_plusone_small_off_client.png"
     },
@@ -32,8 +36,16 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_standard_off_client.png",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-tvdpi\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
@@ -54,6 +66,10 @@
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-tvdpi\\ic_plusone_small_off_client.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png",
@@ -114,6 +130,26 @@
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-tvdpi\\ic_plusone_medium_off_client.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-tvdpi\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-tvdpi\\ic_plusone_tall_off_client.png"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png",
@@ -184,6 +220,10 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_focused.9.png"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
     },
@@ -208,6 +248,10 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png"
     },
@@ -224,6 +268,10 @@
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png"
     },
@@ -232,8 +280,20 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.4.0\\res\\drawable-tvdpi\\ic_plusone_medium_off_client.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png",
@@ -296,8 +356,16 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_pressed.9.png"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
@@ -310,6 +378,14 @@
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png",
@@ -344,6 +420,14 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
@@ -364,8 +448,16 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
@@ -374,6 +466,10 @@
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png",
@@ -386,6 +482,10 @@
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png",
@@ -432,6 +532,10 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\d860d90d46db0bbc87b47681bc1a975ae4e6d113\\output\\res\\drawable-tvdpi\\ic_plusone_standard_off_client.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_normal.9.png"
     },
@@ -440,8 +544,20 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_normal.9.png"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_focused.9.png",
@@ -484,6 +600,10 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
@@ -524,8 +644,16 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_full_open_on_phone.png"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
@@ -544,6 +672,14 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
@@ -554,6 +690,10 @@
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_google_signin_btn_icon_dark_focused.9.png",
@@ -570,6 +710,14 @@
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_focused.9.png",

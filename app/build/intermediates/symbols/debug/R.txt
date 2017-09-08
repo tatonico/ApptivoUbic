@@ -849,7 +849,7 @@ int id action_menu_presenter 0x7f0d0003
 int id action_mode_bar 0x7f0d0086
 int id action_mode_bar_stub 0x7f0d0085
 int id action_mode_close_button 0x7f0d006b
-int id action_settings 0x7f0d00de
+int id action_settings 0x7f0d00dc
 int id activity_chooser_view_content 0x7f0d006c
 int id adjust_height 0x7f0d003d
 int id adjust_width 0x7f0d003e
@@ -963,8 +963,6 @@ int id myEditText 0x7f0d00a5
 int id myEditText2 0x7f0d00a4
 int id nav_camera 0x7f0d00da
 int id nav_gallery 0x7f0d00db
-int id nav_send 0x7f0d00dd
-int id nav_share 0x7f0d00dc
 int id nav_view 0x7f0d00a1
 int id navigation_header_container 0x7f0d00b2
 int id never 0x7f0d0045

@@ -12,20 +12,32 @@
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_cast_dark.xml"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_play_dark.xml"
     },
     {
-        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
@@ -46,6 +58,10 @@
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_send.xml",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_send.xml",
@@ -148,8 +164,16 @@
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.xml",
         "source": "C:\\ApptivoUbic\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
@@ -196,6 +220,10 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable\\mr_ic_settings_light.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
@@ -218,6 +246,10 @@
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
@@ -256,12 +288,12 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bondifoto.jpg",
-        "source": "C:\\Abc\\ApptivoNuevo\\app\\src\\main\\res\\drawable\\bondifoto.jpg"
-    },
-    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bondifoto.jpg",
+        "source": "C:\\Abc\\ApptivoNuevo\\app\\src\\main\\res\\drawable\\bondifoto.jpg"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_manage.xml",
@@ -278,6 +310,10 @@
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_settings_dark.xml"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
@@ -312,16 +348,20 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_cast_dark.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
@@ -332,12 +372,20 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_pause_dark.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
@@ -356,8 +404,16 @@
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\8.4.0\\res\\drawable\\cast_ic_notification_connecting.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\empty_drawable.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\c1d5aedd28e15ab837125247705ddfdd978a54dc\\output\\res\\drawable\\empty_drawable.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
@@ -374,6 +430,14 @@
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -396,8 +460,16 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bondifoto.jpg",
         "source": "C:\\ApptivoUbic\\ApptivoUbic\\app\\src\\main\\res\\drawable\\bondifoto.jpg"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\09d39b97587aa8e576955c6190822951bf36cacd\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
@@ -410,6 +482,10 @@
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_play_light.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
@@ -432,6 +508,10 @@
         "source": "C:\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
@@ -446,6 +526,26 @@
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
@@ -470,6 +570,18 @@
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\9b8ef8bbbd43745f50667c51aa9b13fa8c08c2e0\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
@@ -500,8 +612,16 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.github.fafaldo\\fab-toolbar\\1.2.0\\res\\drawable\\empty_drawable.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
@@ -530,6 +650,10 @@
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
@@ -564,6 +688,14 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_settings_light.xml"
     },
@@ -580,12 +712,20 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\882a9470aa4a2ca51329ed4250f8eb4a20d92205\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_dark.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_settings_dark.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_dark.xml",
@@ -604,8 +744,20 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_slideshow.xml",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
@@ -628,6 +780,10 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
@@ -636,12 +792,20 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
@@ -672,6 +836,10 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_settings_light.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_mono_light.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_media_route_connecting_mono_light.xml"
     },
@@ -692,12 +860,28 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\09d39b97587aa8e576955c6190822951bf36cacd\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_send.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_manage.xml",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
@@ -720,6 +904,10 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\09d39b97587aa8e576955c6190822951bf36cacd\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_cast_light.xml"
     },
@@ -740,6 +928,10 @@
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.3.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
@@ -750,6 +942,14 @@
     {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bondifoto.jpg",
@@ -804,8 +1004,20 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.xml",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+    },
+    {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_settings_light.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\23.0.0\\res\\drawable\\mr_ic_settings_light.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\empty_drawable.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\1be8541b9f30ec20f3c20e723275bcca3414ac20\\output\\res\\drawable\\empty_drawable.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_pause_dark.xml"
     },
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
@@ -844,6 +1056,10 @@
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\d6a24af79496941a7e73476298afeb518ca93d28\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\55253fbf3867bead3f80f49b642678a490f5dd5a\\output\\res\\drawable\\design_fab_background.xml"
     },
@@ -854,5 +1070,13 @@
     {
         "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
         "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bondifoto.jpg",
+        "source": "C:\\App\\ApptivoUbic\\app\\src\\main\\res\\drawable\\bondifoto.jpg"
     }
 ]

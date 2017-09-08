@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\09d39b97587aa8e576955c6190822951bf36cacd\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\09d39b97587aa8e576955c6190822951bf36cacd\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
@@ -22,5 +26,9 @@
     {
         "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.4.0\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\09d39b97587aa8e576955c6190822951bf36cacd\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]
