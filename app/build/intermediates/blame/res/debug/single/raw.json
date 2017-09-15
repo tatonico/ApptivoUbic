@@ -1,22 +1,6 @@
 [
     {
-        "merged": "C:\\App\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\1ac52e988e008c21cd1fad01693e12465dc3eb6d\\output\\res\\raw\\gtm_analytics"
-    },
-    {
-        "merged": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
-        "source": "C:\\Abc\\ApptivoNuevo\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
-        "source": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
-    },
-    {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\1ac52e988e008c21cd1fad01693e12465dc3eb6d\\output\\res\\raw\\gtm_analytics"
-    },
-    {
-        "merged": "C:\\ApptivoUbic\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
-        "source": "C:\\Users\\Lucas\\.android\\build-cache\\480658e2a143cee298590d191412c449895aa771\\output\\res\\raw\\gtm_analytics"
     }
 ]

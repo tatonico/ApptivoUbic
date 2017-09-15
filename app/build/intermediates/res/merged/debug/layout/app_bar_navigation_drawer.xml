@@ -98,7 +98,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="centerInside"
-                android:src="@drawable/abc_ic_menu_copy_mtrl_am_alpha" />
+                app:srcCompat="@drawable/subi" />
 
             <ImageView
                 android:id="@+id/dos"
@@ -106,7 +106,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:scaleType="centerInside"
-                android:src="@drawable/abc_ic_menu_paste_mtrl_am_alpha" />
+                app:srcCompat="@drawable/baje" />
 
             <ImageView
                 android:id="@+id/tres"

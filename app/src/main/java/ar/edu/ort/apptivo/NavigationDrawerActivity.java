@@ -27,9 +27,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.github.fafaldo.fabtoolbar.widget.FABToolbarLayout;
+import com.google.android.gms.ads.formats.NativeAd;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
@@ -71,6 +73,11 @@ public class NavigationDrawerActivity extends AppCompatActivity
     private FABToolbarLayout morph;
     private Button btnOK;
     EditText edtpartida, edtllegada;
+    ImageView uno;
+    ImageView dos;
+    ImageView tres;
+    ImageView cuatro;
+    boolean boolArriba= false;
 
 
     @Override
@@ -79,6 +86,9 @@ public class NavigationDrawerActivity extends AppCompatActivity
         setContentView(R.layout.activity_navigation_drawer);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        ObtenerRef();
+        ClickListeners();
+
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -92,6 +102,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                 morph.hide();
             }
         });
+        morph.hide();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -108,13 +119,77 @@ public class NavigationDrawerActivity extends AppCompatActivity
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        edtpartida = (EditText) findViewById(R.id.myEditText);
-        edtllegada = (EditText) findViewById(R.id.myEditText2);
-        btnOK = (Button) findViewById(R.id.btnOk);
-        btnOK.setOnClickListener(Click);
+
+
+
 
     }
-
+    public void ObtenerRef()
+    {
+        btnOK = (Button) findViewById(R.id.btnOk);
+        edtpartida = (EditText) findViewById(R.id.myEditText);
+        edtllegada = (EditText) findViewById(R.id.myEditText2);
+        uno= (ImageView) findViewById(R.id.uno);
+        dos= (ImageView) findViewById(R.id.dos);
+        tres= (ImageView) findViewById(R.id.tres);
+        cuatro= (ImageView) findViewById(R.id.cuatro);
+    }
+    public void ClickListeners()
+    {
+        btnOK.setOnClickListener(Click);
+        uno.setOnClickListener(ClickUno);
+        dos.setOnClickListener(ClickDos);
+        tres.setOnClickListener(ClickTres);
+        cuatro.setOnClickListener(ClickCuatro);
+    }
+    View.OnClickListener ClickUno =new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View v)
+        {
+            morph.hide();
+            if (boolArriba) {
+                Toast.makeText(NavigationDrawerActivity.this, "Usted ya se encuentra en un colectivo.", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                Toast.makeText(NavigationDrawerActivity.this, "Gracias por avisar que se ha subico.", Toast.LENGTH_SHORT).show();
+                boolArriba = true;
+            }
+        }
+    };
+    View.OnClickListener ClickDos =new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View v)
+        {
+            morph.hide();
+            if (boolArriba) {
+                Toast.makeText(NavigationDrawerActivity.this, "Gracias por indicar que ya no esta en el colectivo", Toast.LENGTH_SHORT).show();
+                boolArriba= false;
+            }
+            else {
+                Toast.makeText(NavigationDrawerActivity.this, "Usted no esta en un colectivo.", Toast.LENGTH_SHORT).show();
+            }
+        }
+    };
+    View.OnClickListener ClickTres =new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View v)
+        {
+            morph.hide();
+            Toast.makeText(NavigationDrawerActivity.this, "Tres", Toast.LENGTH_SHORT).show();
+        }
+    };
+    View.OnClickListener ClickCuatro =new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View v)
+        {
+            morph.hide();
+            Toast.makeText(NavigationDrawerActivity.this, "Cuatro", Toast.LENGTH_SHORT).show();
+        }
+    };
     View.OnClickListener Click = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -232,6 +307,9 @@ public class NavigationDrawerActivity extends AppCompatActivity
             drawer.closeDrawer(GravityCompat.START);
             return true;
         }
+
+
+
 
         public void onMapReady(GoogleMap googleMap) {
             mMap = googleMap;
@@ -441,7 +519,43 @@ public class NavigationDrawerActivity extends AppCompatActivity
                     // TODO: handle exception
                     Log.d("Background Task", e.toString());
                 }
+                Log.d("TATO", data);
+                ParsearJson(data);
                 return data;
+            }
+
+            private void ParsearJson(String strJSON){
+                JSONObject rootObject, currentRoute;
+                JSONArray  routes,legs;
+
+
+                try {
+
+                    rootObject = new JSONObject(strJSON);
+                    //Log.d("TATO", rootObject.toString());
+
+                    routes = rootObject.getJSONArray("routes");
+                    Log.d("TATO 0", routes.toString());
+
+                    for (int i=0; i< routes.length(); i++){
+                        Log.d("TATO 1", String.valueOf(routes.length()));
+                        currentRoute = routes.getJSONObject(i);
+
+                        legs = currentRoute.getJSONArray("legs");
+                        Log.d("TATO 1.1", legs.toString());
+
+
+                        JSONObject currentLeg = legs.getJSONObject(0);
+                        Log.d("TATO 2", currentLeg.toString());
+                        JSONObject currenArrivalTime = currentLeg.getJSONObject("arrival_time");
+                        Log.d("TATO 3", currenArrivalTime.toString());
+
+                        Log.d("TATO 4", currenArrivalTime.getString("text"));
+                        //currenArrivalTime.getString("text");
+                    }
+                } catch (Throwable t) {
+                    Log.d("TATO", "Could not parse malformed JSON: \"" + strJSON + "\"");
+                }
             }
 
             @Override
