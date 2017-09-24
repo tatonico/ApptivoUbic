@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Address;
@@ -12,6 +13,7 @@ import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
@@ -31,7 +33,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.github.fafaldo.fabtoolbar.widget.FABToolbarLayout;
-import com.google.android.gms.ads.formats.NativeAd;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationListener;
@@ -46,6 +47,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -60,6 +62,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+
 public class NavigationDrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
@@ -73,11 +79,11 @@ public class NavigationDrawerActivity extends AppCompatActivity
     private FABToolbarLayout morph;
     private Button btnOK;
     EditText edtpartida, edtllegada;
-    ImageView uno;
-    ImageView dos;
-    ImageView tres;
-    ImageView cuatro;
+    ImageView uno,dos,tres,cuatro;
     boolean boolArriba= false;
+    LatLng LastCoordinates;
+    String SelectedLine;
+    CountDownTimer timer;
 
 
     @Override
@@ -316,6 +322,24 @@ public class NavigationDrawerActivity extends AppCompatActivity
             mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
 
 
+
+            timer = new CountDownTimer(5000, 20) {
+
+                @Override
+                public void onTick(long millisUntilFinished) {
+
+                }
+
+                @Override
+                public void onFinish() {
+                    try{
+                        SendCoordinates();
+                    }catch(Exception e){
+                        Log.e("Error", "Error: " + e.toString());
+                    }
+                }
+            }.start();
+
             //Initialize Google Play Services
             if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 if (ContextCompat.checkSelfPermission(this,
@@ -338,6 +362,40 @@ public class NavigationDrawerActivity extends AppCompatActivity
                     .build();
             mGoogleApiClient.connect();
         }
+    public void SendCoordinates(){
+        if (boolArriba){
+        new SendTask().execute(String.valueOf(LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
+                "http://localost/", SelectedLine);
+        }
+        timer.start();
+    }
+    private class SendTask extends AsyncTask<String, Void, String> {
+
+        protected void onPostExecute(String confirmacion) {
+            super.onPostExecute(confirmacion);
+            if (confirmacion == "Good"){
+
+            }else{
+                Log.i("Coordenada enviada", "BAD");
+            }
+        }
+        @Override
+        protected String doInBackground(String... parametros) {
+            OkHttpClient client = new OkHttpClient();
+            String Url= parametros[3]+ "?" + parametros[1] +"?"+parametros[2] + "?" + parametros[4];
+            Request request = new Request.Builder()
+                    .url(Url)
+                    .build();
+            try {
+                Response response = client.newCall(request).execute();  // Llamo al API Rest servicio1 en localhost
+                String resultado = response.body().string();
+                return resultado;
+            } catch (IOException e) {
+                Log.d("Error",e.getMessage());             // Error de Network
+                return e.getMessage();
+            }
+        }
+    }
 
         @Override
         public void onConnected(Bundle bundle) {
@@ -365,13 +423,14 @@ public class NavigationDrawerActivity extends AppCompatActivity
 
             mLastLocation = location;
             //Place current location marker
-            LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
+            LastCoordinates = new LatLng(location.getLatitude(), location.getLongitude());
         /*MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
         markerOptions.title("Posicion actual para Polshu.");
         mCurrLocationMarker = mMap.addMarker(markerOptions);*/
-            drawCircle(latLng, "#3684D7");
-            Log.d("latlngformat", latLng.toString());
+            mMap.clear();
+            drawCircle(LastCoordinates, "#3684D7");
+            Log.d("latlngformat", LastCoordinates.toString());
 
             //move map camera
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15));
