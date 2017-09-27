@@ -1,10 +1,6 @@
 [
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\Proy\\ApptivoUbic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
-        "source": "C:\\GitPro\\ApptivoUbic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\ApptivoUbic1\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

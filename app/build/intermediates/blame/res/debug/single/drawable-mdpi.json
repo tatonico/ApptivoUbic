@@ -1,538 +1,270 @@
 [
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_full_open_on_phone.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_off_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_cast_off_light.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_0_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_cast_on_0_light.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\powered_by_google_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\3d6ad2d78901b0f071197d2c1981d1a78628b5fb\\output\\res\\drawable-mdpi\\powered_by_google_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\places_ic_clear.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\ba7a6f2335480eb3950c7b6f157f1f775dc1cea6\\output\\res\\drawable-mdpi\\places_ic_clear.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_pressed.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_2_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_cast_on_2_light.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\d860d90d46db0bbc87b47681bc1a975ae4e6d113\\output\\res\\drawable-mdpi\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_pause.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_media_pause.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_2_mono_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_media_route_on_2_mono_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\powered_by_google_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7f5c940096719713428351816d4027543426b8f8\\output\\res\\drawable-mdpi\\powered_by_google_dark.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_1_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_cast_on_1_light.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_tall_off_client.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-mdpi\\ic_plusone_tall_off_client.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_disabled.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\d860d90d46db0bbc87b47681bc1a975ae4e6d113\\output\\res\\drawable-mdpi\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_medium_off_client.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\b8ad099774cfea6787bc3d4d796663bd09481405\\output\\res\\drawable-mdpi\\ic_plusone_medium_off_client.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_disabled_mono_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_media_route_disabled_mono_dark.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_mono_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_media_route_on_mono_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_setting_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_setting_dark.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_play_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_play_dark.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_pause.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_media_pause.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_on.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\9b8ef8bbbd43745f50667c51aa9b13fa8c08c2e0\\output\\res\\drawable-mdpi\\cast_ic_notification_on.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_disabled_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_cast_disabled_light.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_0_mono_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_media_route_on_0_mono_dark.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_tall_off_client.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\b8ad099774cfea6787bc3d4d796663bd09481405\\output\\res\\drawable-mdpi\\ic_plusone_tall_off_client.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_normal.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_play_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_play_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_2.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\9b8ef8bbbd43745f50667c51aa9b13fa8c08c2e0\\output\\res\\drawable-mdpi\\cast_ic_notification_2.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_play_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_play_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_cast_dark.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\places_ic_clear.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\3d6ad2d78901b0f071197d2c1981d1a78628b5fb\\output\\res\\drawable-mdpi\\places_ic_clear.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\d860d90d46db0bbc87b47681bc1a975ae4e6d113\\output\\res\\drawable-mdpi\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_standard_off_client.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\b8ad099774cfea6787bc3d4d796663bd09481405\\output\\res\\drawable-mdpi\\ic_plusone_standard_off_client.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_pause_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_pause_light.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\d860d90d46db0bbc87b47681bc1a975ae4e6d113\\output\\res\\drawable-mdpi\\ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\places_ic_clear.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7f5c940096719713428351816d4027543426b8f8\\output\\res\\drawable-mdpi\\places_ic_clear.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_1.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\9b8ef8bbbd43745f50667c51aa9b13fa8c08c2e0\\output\\res\\drawable-mdpi\\cast_ic_notification_1.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_2.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\8d6f4f493f269befee56b976d1f48bae80f0acd7\\output\\res\\drawable-mdpi\\cast_ic_notification_2.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_focused.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_normal.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_mono_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_media_route_on_mono_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_disabled_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_cast_disabled_light.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_disabled_mono_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_media_route_disabled_mono_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_off_mono_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_media_route_off_mono_dark.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_1.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\8d6f4f493f269befee56b976d1f48bae80f0acd7\\output\\res\\drawable-mdpi\\cast_ic_notification_1.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_focused.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_setting_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_setting_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_normal.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_pause_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_pause_dark.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_full_open_on_phone.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_2_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_cast_on_2_light.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_cast_on_light.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_cast_light.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_pressed.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_1_mono_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_media_route_on_1_mono_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_normal.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_disabled_mono_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_media_route_disabled_mono_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\places_ic_search.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7f5c940096719713428351816d4027543426b8f8\\output\\res\\drawable-mdpi\\places_ic_search.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_normal.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\places_ic_search.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\3d6ad2d78901b0f071197d2c1981d1a78628b5fb\\output\\res\\drawable-mdpi\\places_ic_search.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_on.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\8d6f4f493f269befee56b976d1f48bae80f0acd7\\output\\res\\drawable-mdpi\\cast_ic_notification_on.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_setting_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_setting_light.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\places_ic_search.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\ba7a6f2335480eb3950c7b6f157f1f775dc1cea6\\output\\res\\drawable-mdpi\\places_ic_search.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_0_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_cast_on_0_light.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_normal.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_1_mono_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_media_route_on_1_mono_dark.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_0.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\9b8ef8bbbd43745f50667c51aa9b13fa8c08c2e0\\output\\res\\drawable-mdpi\\cast_ic_notification_0.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_0.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\882a9470aa4a2ca51329ed4250f8eb4a20d92205\\output\\res\\drawable-mdpi\\cast_ic_notification_0.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\powered_by_google_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7f5c940096719713428351816d4027543426b8f8\\output\\res\\drawable-mdpi\\powered_by_google_light.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_0_mono_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_media_route_on_0_mono_dark.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_focused.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_play.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_media_play.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_normal.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_cast_on_light.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_normal.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_normal.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_cast_on_light.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_2_mono_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_media_route_on_2_mono_dark.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_play.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_media_play.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_mono_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_media_route_on_mono_dark.png"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_normal.9.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\powered_by_google_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\ba7a6f2335480eb3950c7b6f157f1f775dc1cea6\\output\\res\\drawable-mdpi\\powered_by_google_light.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_focused.9.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_focused.9.png"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_cast_dark.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\powered_by_google_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\3d6ad2d78901b0f071197d2c1981d1a78628b5fb\\output\\res\\drawable-mdpi\\powered_by_google_light.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_2_mono_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_media_route_on_2_mono_dark.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_full_open_on_phone.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_play.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_media_play.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_standard_off_client.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-mdpi\\ic_plusone_standard_off_client.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_0_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_cast_on_0_light.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_disabled_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_cast_disabled_light.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_2.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\882a9470aa4a2ca51329ed4250f8eb4a20d92205\\output\\res\\drawable-mdpi\\cast_ic_notification_2.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_pause_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_pause_dark.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_cast_light.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_play_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_play_light.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_on.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\882a9470aa4a2ca51329ed4250f8eb4a20d92205\\output\\res\\drawable-mdpi\\cast_ic_notification_on.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_1_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_cast_on_1_light.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_pause_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_pause_dark.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_small_off_client.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\b8ad099774cfea6787bc3d4d796663bd09481405\\output\\res\\drawable-mdpi\\ic_plusone_small_off_client.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_off_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_cast_off_light.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_off_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_cast_off_light.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_medium_off_client.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-mdpi\\ic_plusone_medium_off_client.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_1_mono_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_media_route_on_1_mono_dark.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_1.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\882a9470aa4a2ca51329ed4250f8eb4a20d92205\\output\\res\\drawable-mdpi\\cast_ic_notification_1.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_light_pressed.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_focused.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_setting_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_setting_dark.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_pause_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_pause_light.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_play_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_play_light.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_2_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_cast_on_2_light.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_off_mono_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_media_route_off_mono_dark.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_pause_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_pause_light.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_cast_light.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_pause.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_media_pause.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_google_signin_btn_text_dark_normal.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\powered_by_google_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\ba7a6f2335480eb3950c7b6f157f1f775dc1cea6\\output\\res\\drawable-mdpi\\powered_by_google_dark.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_on_0_mono_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_media_route_on_0_mono_dark.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_on_1_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_cast_on_1_light.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_media_route_off_mono_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_media_route_off_mono_dark.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\cast_ic_notification_0.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\8d6f4f493f269befee56b976d1f48bae80f0acd7\\output\\res\\drawable-mdpi\\cast_ic_notification_0.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_cast_dark.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_cast_dark.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_setting_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-mdpi\\ic_setting_light.png"
-    },
-    {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\common_plus_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-mdpi\\common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_setting_light.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\eaafdf9c83f2f86ffb0c20bf470ab57ff2ad014c\\output\\res\\drawable-mdpi\\ic_setting_light.png"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_plusone_small_off_client.png",
-        "source": "C:\\Users\\Administrador\\.android\\build-cache\\68fcd2a63171eb347ffd484686132b003ad2b32b\\output\\res\\drawable-mdpi\\ic_plusone_small_off_client.png"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_play_light.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-mdpi\\ic_play_light.png"
     }
 ]

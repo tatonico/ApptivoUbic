@@ -433,7 +433,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             Log.d("latlngformat", LastCoordinates.toString());
 
             //move map camera
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 15));
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LastCoordinates, 15));
         /*mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(14));*/
 
@@ -585,7 +585,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
 
             private void ParsearJson(String strJSON){
                 JSONObject rootObject, currentRoute;
-                JSONArray  routes,legs;
+                JSONArray  routes,legs,steps;
 
 
                 try {
@@ -603,13 +603,19 @@ public class NavigationDrawerActivity extends AppCompatActivity
                         legs = currentRoute.getJSONArray("legs");
                         Log.d("TATO 1.1", legs.toString());
 
-
                         JSONObject currentLeg = legs.getJSONObject(0);
                         Log.d("TATO 2", currentLeg.toString());
-                        JSONObject currenArrivalTime = currentLeg.getJSONObject("arrival_time");
-                        Log.d("TATO 3", currenArrivalTime.toString());
+                        steps = currentLeg.getJSONArray("steps");
+                        Log.d("TATO 2.1", steps.toString());
+                        JSONObject currentStep = steps.getJSONObject(3);
+                        Log.d("TATO 2.2", currentStep.toString());
+                        JSONObject line = currentStep.getJSONObject("transit_details").getJSONObject("line");
+                        Log.d("TATO 2.3", line.toString());
+                        Log.d("TATO 2.4", line.getString("short_name"));
+                        JSONObject currentArrivalTime = currentLeg.getJSONObject("arrival_time");
+                        Log.d("TATO 3", currentArrivalTime.toString());
 
-                        Log.d("TATO 4", currenArrivalTime.getString("text"));
+                        Log.d("TATO 4", currentArrivalTime.getString("text"));
                         //currenArrivalTime.getString("text");
                     }
                 } catch (Throwable t) {

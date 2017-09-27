@@ -1,18 +1,10 @@
 [
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_drawer.xml",
-        "source": "C:\\GitPro\\ApptivoUbic\\app\\src\\main\\res\\menu\\navigation_drawer.xml"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer_drawer.xml",
+        "source": "C:\\ApptivoUbic1\\app\\src\\main\\res\\menu\\activity_navigation_drawer_drawer.xml"
     },
     {
-        "merged": "C:\\GitPro\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer_drawer.xml",
-        "source": "C:\\GitPro\\ApptivoUbic\\app\\src\\main\\res\\menu\\activity_navigation_drawer_drawer.xml"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_drawer.xml",
-        "source": "C:\\Proy\\ApptivoUbic\\app\\src\\main\\res\\menu\\navigation_drawer.xml"
-    },
-    {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_navigation_drawer_drawer.xml",
-        "source": "C:\\Proy\\ApptivoUbic\\app\\src\\main\\res\\menu\\activity_navigation_drawer_drawer.xml"
+        "merged": "C:\\ApptivoUbic1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\navigation_drawer.xml",
+        "source": "C:\\ApptivoUbic1\\app\\src\\main\\res\\menu\\navigation_drawer.xml"
     }
 ]
