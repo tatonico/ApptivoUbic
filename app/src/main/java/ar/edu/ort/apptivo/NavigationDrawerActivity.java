@@ -584,16 +584,14 @@ public class NavigationDrawerActivity extends AppCompatActivity
             }
 
             private void ParsearJson(String strJSON){
-                JSONObject rootObject, currentRoute;
+                JSONObject rootObject, currentRoute,currentLeg = null, line;
                 JSONArray  routes,legs,steps;
-
+                String Linea;
 
                 try {
-
                     rootObject = new JSONObject(strJSON);
                     //Log.d("TATO", rootObject.toString());
-
-                    routes = rootObject.getJSONArray("routes");
+                   routes = rootObject.getJSONArray("routes");
                     Log.d("TATO 0", routes.toString());
 
                     for (int i=0; i< routes.length(); i++){
@@ -602,21 +600,28 @@ public class NavigationDrawerActivity extends AppCompatActivity
 
                         legs = currentRoute.getJSONArray("legs");
                         Log.d("TATO 1.1", legs.toString());
+                        for (int u=0; u< legs.length(); u++) {
 
-                        JSONObject currentLeg = legs.getJSONObject(0);
-                        Log.d("TATO 2", currentLeg.toString());
-                        steps = currentLeg.getJSONArray("steps");
-                        Log.d("TATO 2.1", steps.toString());
-                        JSONObject currentStep = steps.getJSONObject(3);
-                        Log.d("TATO 2.2", currentStep.toString());
-                        JSONObject line = currentStep.getJSONObject("transit_details").getJSONObject("line");
-                        Log.d("TATO 2.3", line.toString());
-                        Log.d("TATO 2.4", line.getString("short_name"));
+                            currentLeg = legs.getJSONObject(i);
+                            Log.d("TATO 2", currentLeg.toString());
+                            steps = currentLeg.getJSONArray("steps");
+                            for (int h=0; h< steps.length(); h++) {
+                                Log.d("TATO 2.1", steps.toString());
+                                JSONObject currentStep = steps.getJSONObject(h);
+                                Log.d("TATO 2.2", currentStep.toString());
+                                line = currentStep.getJSONObject("transit_details").getJSONObject("line");
+                                Log.d("TATO 2.3", line.toString());
+                                Linea = line.getString("short_name");
+                                if (!(Linea.equals(""))){
+                                    Log.d("TATO 2.4", line.getString("short_name"));
+                                }
+                                //currenArrivalTime.getString("text");
+                            }
+                        }
                         JSONObject currentArrivalTime = currentLeg.getJSONObject("arrival_time");
                         Log.d("TATO 3", currentArrivalTime.toString());
 
                         Log.d("TATO 4", currentArrivalTime.getString("text"));
-                        //currenArrivalTime.getString("text");
                     }
                 } catch (Throwable t) {
                     Log.d("TATO", "Could not parse malformed JSON: \"" + strJSON + "\"");
