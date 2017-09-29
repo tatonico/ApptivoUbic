@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\ApptivoUbic1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\ApptivoUbic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -1605,7 +1605,7 @@
                     "endOffset": 6987
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1624,7 +1624,7 @@
                     "endOffset": 7034
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1643,7 +1643,7 @@
                     "endOffset": 7085
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -4569,7 +4569,7 @@
                     "endOffset": 52180
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -4588,7 +4588,7 @@
                     "endOffset": 52236
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -5196,7 +5196,7 @@
                     "endOffset": 54217
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -5348,7 +5348,7 @@
                     "endOffset": 54828
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -5367,7 +5367,7 @@
                     "endOffset": 54887
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -6412,7 +6412,7 @@
                     "endOffset": 58378
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -6431,7 +6431,7 @@
                     "endOffset": 58423
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -7211,7 +7211,7 @@
                     "endOffset": 63591
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\debug\\res\\values\\google_maps_api.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\debug\\res\\values\\google_maps_api.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -7440,7 +7440,7 @@
                     "endOffset": 64484
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -7459,7 +7459,7 @@
                     "endOffset": 64558
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -7573,7 +7573,7 @@
                     "endOffset": 64975
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -7592,7 +7592,7 @@
                     "endOffset": 65061
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -7728,7 +7728,7 @@
                     "endOffset": 66094
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -7748,7 +7748,7 @@
                     "endOffset": 66184
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -7768,7 +7768,7 @@
                     "endOffset": 66334
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -7788,7 +7788,7 @@
                     "endOffset": 66414
                 },
                 "from": {
-                    "file": "C:\\ApptivoUbic1\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "C:\\ApptivoUbic\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,

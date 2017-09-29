@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\ApptivoUbic1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\ApptivoUbic\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc354e224e20fb54a180541aeaf85e17ea697277">
+        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_37deee9ed76f54744fa174603b8a576b41076684\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\ApptivoUbic\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\ApptivoUbic1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_714bb2e986d0843519e0c0705c1b50506e21169a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\ApptivoUbic1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e33166b0059cb8d2687ec4d88ff129ca27cbb50c">
-        <dex dex="C:\ApptivoUbic1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_fa103928c5da7888ab2b3ce59db338e40567c382\classes.dex" />
+        <dex dex="C:\ApptivoUbic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fb3fc9f503b2216f4d134fbcdd191b2e2bb62276\classes.dex" />
     </item>
 
 </items>

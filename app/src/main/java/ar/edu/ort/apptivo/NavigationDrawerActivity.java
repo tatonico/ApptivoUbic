@@ -545,7 +545,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             String mode = "mode=transit&alternatives=true";
 
             // Sensor enabled
-            String sensor = "sensor=false";
+            String sensor = "sensor=true";
             String key = "key=IzaSyDfgAa6EV-cDddFKl8MV1hWVoiMXJ9j4rc";
 
             // Building the parameters to the web service

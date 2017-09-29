@@ -6,99 +6,33 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1506637523980"
-    token="-1828890264481520643"
+    timestamp="1506704464470"
+    token="8161296638684968097"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="3964" />
+        duration="2084" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="164" />
+        duration="2188" />
     <task
         name="verifier"
-        duration="72" />
+        duration="976" />
 
     <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\ApptivoUbic1\app\build\outputs\apk\app-debug.apk"
+        location="C:\ApptivoUbic\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1506637523980"
+        timestamp="1506704464470"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\ApptivoUbic1\app\build\outputs\apk\app-debug.apk"
+            location="C:\ApptivoUbic\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 
