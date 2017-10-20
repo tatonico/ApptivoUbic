@@ -42,6 +42,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
@@ -84,6 +85,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
     LatLng LastCoordinates;
     String SelectedLine;
     CountDownTimer timer;
+    UiSettings uiset;
 
 
     @Override
@@ -125,6 +127,8 @@ public class NavigationDrawerActivity extends AppCompatActivity
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+
 
 
 
@@ -208,34 +212,43 @@ public class NavigationDrawerActivity extends AppCompatActivity
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
                                 Toast.makeText(NavigationDrawerActivity.this, "Gracias por indicar", Toast.LENGTH_SHORT).show();
-                                LatLng latlngPartida = getLocationFromAddress(NavigationDrawerActivity.this, edtpartida.getText().toString());
-                                LatLng latlngLlegada = getLocationFromAddress(NavigationDrawerActivity.this, edtllegada.getText().toString());
-                                mMap.clear();
+                                try {
+                                    LatLng latlngPartida = getLocationFromAddress(NavigationDrawerActivity.this, edtpartida.getText().toString());
+                                    LatLng latlngLlegada = getLocationFromAddress(NavigationDrawerActivity.this, edtllegada.getText().toString());
+                                    mMap.clear();
                             /*drawCircle(latlngLlegada, "#E41436");
                             drawCircle(latlngPartida, "#30BA59");*/
 
 
-                                mMap.addMarker(new MarkerOptions()
-                                        .position(latlngPartida)
-                                        .title("Partida"));
-                                mMap.addMarker(new MarkerOptions()
-                                        .position(latlngLlegada)
-                                        .title("Llegada"));
-                                DibujarCamino(latlngPartida, latlngLlegada);
+                                    mMap.addMarker(new MarkerOptions()
+                                            .position(latlngPartida)
+                                            .title("Partida"));
+                                    mMap.addMarker(new MarkerOptions()
+                                            .position(latlngLlegada)
+                                            .title("Llegada"));
+                                    DibujarCamino(latlngPartida, latlngLlegada);
 
+                                }
+                                catch(Exception e)
+                                {
+                                    Toast.makeText(NavigationDrawerActivity.this, "Error al buscar las calles.", Toast.LENGTH_SHORT).show();
+                                    Log.e("Error", "Error: " + e.toString());
+                                }
                             }
-                        })
-                        .setNegativeButton("No", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                dialog.cancel();
-                            }
-                        });
-                AlertDialog alert = builder.create();
+
+                            })
+                                    .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            });
+                            AlertDialog alert = builder.create();
                 alert.show();
-            } else {
-                Log.d("no entra", "no entra");
-                Toast.makeText(NavigationDrawerActivity.this, "Complete las calles", Toast.LENGTH_SHORT).show();
-            }
+                        } else {
+                    Log.d("no entra", "no entra");
+                    Toast.makeText(NavigationDrawerActivity.this, "Complete las calles", Toast.LENGTH_SHORT).show();
+                }
+
         }
 
     };
@@ -320,6 +333,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         public void onMapReady(GoogleMap googleMap) {
             mMap = googleMap;
             mMap.setMapType(GoogleMap.MAP_TYPE_TERRAIN);
+            mMap.setMyLocationEnabled(true);
 
 
 
@@ -584,7 +598,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             }
 
             private void ParsearJson(String strJSON){
-                JSONObject rootObject, currentRoute,currentLeg = null, line;
+                JSONObject rootObject, currentRoute, currentLeg , currentline, currentDetails = null;
                 JSONArray  routes,legs,steps;
                 String Linea;
 
@@ -609,19 +623,25 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                 Log.d("TATO 2.1", steps.toString());
                                 JSONObject currentStep = steps.getJSONObject(h);
                                 Log.d("TATO 2.2", currentStep.toString());
-                                line = currentStep.getJSONObject("transit_details").getJSONObject("line");
-                                Log.d("TATO 2.3", line.toString());
-                                Linea = line.getString("short_name");
-                                if (!(Linea.equals(""))){
-                                    Log.d("TATO 2.4", line.getString("short_name"));
+
+                                if(!currentStep.isNull("transit_details")) {
+                                    currentDetails = currentStep.getJSONObject("transit_details");
+                                    Log.d("TATO 2.3", currentDetails.toString());
+                                    currentline = currentDetails.getJSONObject("line");
+                                    Log.d("TATO 2.35", currentline.toString());
+                                    try {
+                                        String line = currentline.getString("short_name");
+                                        Log.d("TATO 2.4", line);
+                                    } catch (Exception e) {
+                                        Log.d("Parseo", e.getMessage().toString());
+                                    }
                                 }
                                 //currenArrivalTime.getString("text");
                             }
                         }
-                        JSONObject currentArrivalTime = currentLeg.getJSONObject("arrival_time");
-                        Log.d("TATO 3", currentArrivalTime.toString());
-
-                        Log.d("TATO 4", currentArrivalTime.getString("text"));
+                        //JSONObject currentArrivalTime = currentLeg.getJSONObject("arrival_time");
+                        //Log.d("TATO 3", currentArrivalTime.toString());
+                        //Log.d("TATO 4", currentArrivalTime.getString("text"));
                     }
                 } catch (Throwable t) {
                     Log.d("TATO", "Could not parse malformed JSON: \"" + strJSON + "\"");

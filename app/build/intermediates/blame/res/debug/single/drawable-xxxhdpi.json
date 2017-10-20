@@ -4,8 +4,16 @@
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7f5c940096719713428351816d4027543426b8f8\\output\\res\\drawable-xxxhdpi\\places_ic_search.png"
     },
     {
+        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_light.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\ba7a6f2335480eb3950c7b6f157f1f775dc1cea6\\output\\res\\drawable-xxxhdpi\\powered_by_google_light.png"
+    },
+    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_light.png",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7f5c940096719713428351816d4027543426b8f8\\output\\res\\drawable-xxxhdpi\\powered_by_google_light.png"
+    },
+    {
+        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_search.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\ba7a6f2335480eb3950c7b6f157f1f775dc1cea6\\output\\res\\drawable-xxxhdpi\\places_ic_search.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_dark.png",
@@ -14,5 +22,13 @@
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_clear.png",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7f5c940096719713428351816d4027543426b8f8\\output\\res\\drawable-xxxhdpi\\places_ic_clear.png"
+    },
+    {
+        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\powered_by_google_dark.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\ba7a6f2335480eb3950c7b6f157f1f775dc1cea6\\output\\res\\drawable-xxxhdpi\\powered_by_google_dark.png"
+    },
+    {
+        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\places_ic_clear.png",
+        "source": "C:\\Users\\Administrador\\.android\\build-cache\\ba7a6f2335480eb3950c7b6f157f1f775dc1cea6\\output\\res\\drawable-xxxhdpi\\places_ic_clear.png"
     }
 ]

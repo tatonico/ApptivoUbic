@@ -2,5 +2,9 @@
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
         "source": "C:\\ApptivoUbic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Proy\\ApptivoUbic\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]
