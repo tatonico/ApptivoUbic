@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (Error)
         {
-            new LoginTask().execute(edtMail.getText().toString(), edtPass.getText().toString(), "http://localost/");
+            new LoginTask().execute(edtMail.getText().toString(), edtPass.getText().toString(), "http://apptivodatabase.azurewebsites.net/api/api/Login/");
         }
         else
         {
@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         protected Usuario doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[3]+ "?" + parametros[1] +"?"+parametros[2];
+            String Url= parametros[3]+ "/" + parametros[1] +"/"+parametros[2];
             Request request = new Request.Builder()
                     .url(Url)
                     .build();
