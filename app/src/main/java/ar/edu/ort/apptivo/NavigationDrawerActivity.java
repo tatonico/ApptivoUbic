@@ -600,6 +600,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             private void ParsearJson(String strJSON){
                 JSONObject rootObject, currentRoute, currentLeg , currentline, currentDetails = null;
                 JSONArray  routes,legs,steps;
+                ArrayList<String> ListaLineas = new ArrayList<>();
                 String Linea;
 
                 try {
@@ -627,13 +628,18 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                 if(!currentStep.isNull("transit_details")) {
                                     currentDetails = currentStep.getJSONObject("transit_details");
                                     Log.d("TATO 2.3", currentDetails.toString());
-                                    currentline = currentDetails.getJSONObject("line");
-                                    Log.d("TATO 2.35", currentline.toString());
-                                    try {
-                                        String line = currentline.getString("short_name");
-                                        Log.d("TATO 2.4", line);
-                                    } catch (Exception e) {
-                                        Log.d("Parseo", e.getMessage().toString());
+                                    if(!currentDetails.isNull("line")) {
+                                        currentline = currentDetails.getJSONObject("line");
+                                        Log.d("TATO 2.35", currentline.toString());
+                                        try {
+                                            if(!currentline.isNull("short_name")) {
+                                                String line = currentline.getString("short_name");
+                                                Log.d("TATO 2.4", line);
+                                                ListaLineas.add(line);
+                                            }
+                                        } catch (Exception e) {
+                                            Log.d("Parseo", e.getMessage().toString());
+                                        }
                                     }
                                 }
                                 //currenArrivalTime.getString("text");

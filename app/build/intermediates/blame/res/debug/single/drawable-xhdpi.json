@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\882a9470aa4a2ca51329ed4250f8eb4a20d92205\\output\\res\\drawable-xhdpi\\cast_ic_notification_on.png"
     },
     {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_setting_dark.png",
-        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-xhdpi\\ic_setting_dark.png"
-    },
-    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_full_open_on_phone.png",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable-xhdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_setting_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-xhdpi\\ic_setting_dark.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_play_dark.png",
-        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-xhdpi\\ic_play_dark.png"
-    },
-    {
         "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png",
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable-xhdpi\\common_plus_signin_btn_text_dark_pressed.9.png"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_play_dark.png",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\71dce59947a5ee5818775516efe36a22baadb5fa\\output\\res\\drawable-xhdpi\\ic_play_dark.png"
     },
     {
         "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_media_route_on_0_mono_dark.png",

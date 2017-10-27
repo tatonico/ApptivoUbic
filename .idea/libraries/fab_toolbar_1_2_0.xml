@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="fab-toolbar-1.2.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/3a48fcdc54ef285ba552460580ffe4a4211ec18f/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/3a48fcdc54ef285ba552460580ffe4a4211ec18f/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/c1d5aedd28e15ab837125247705ddfdd978a54dc/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/c1d5aedd28e15ab837125247705ddfdd978a54dc/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

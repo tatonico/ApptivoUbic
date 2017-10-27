@@ -36,28 +36,28 @@
         "source": "C:\\Users\\Administrador\\.android\\build-cache\\07cdda49d4933036e0291f69c11bf32786e41bdc\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
         "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
         "source": "C:\\Proy\\ApptivoUbic\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\7a7354548c79694967ea6e384179e08983f4d691\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\subi.jpg",
-        "source": "C:\\ApptivoUbic\\app\\src\\main\\res\\drawable\\subi.jpg"
+        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
+        "source": "C:\\Proy\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "C:\\Users\\Lucas\\.android\\build-cache\\79689f5efe9a19cd5540badafaec99dc2c8be3bc\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
-        "source": "C:\\Proy\\ApptivoUbic\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\subi.jpg",
+        "source": "C:\\ApptivoUbic\\app\\src\\main\\res\\drawable\\subi.jpg"
     },
     {
         "merged": "C:\\Proy\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
