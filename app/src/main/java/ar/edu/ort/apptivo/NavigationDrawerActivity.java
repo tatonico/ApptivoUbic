@@ -4,7 +4,6 @@ import android.Manifest;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Address;
@@ -48,7 +47,6 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
-import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -396,7 +394,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         @Override
         protected String doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[3]+ "?" + parametros[1] +"?"+parametros[2] + "?" + parametros[4];
+            String Url= parametros[3]+ "/" + parametros[1] +"/"+parametros[2] + "/" + parametros[4];
             Request request = new Request.Builder()
                     .url(Url)
                     .build();
@@ -635,6 +633,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                             if(!currentline.isNull("short_name")) {
                                                 String line = currentline.getString("short_name");
                                                 Log.d("TATO 2.4", line);
+                                                Log.d("TATO", String.valueOf(u) + "-"+ String.valueOf(h));
                                                 ListaLineas.add(line);
                                             }
                                         } catch (Exception e) {
@@ -651,6 +650,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                     }
                 } catch (Throwable t) {
                     Log.d("TATO", "Could not parse malformed JSON: \"" + strJSON + "\"");
+
                 }
             }
 

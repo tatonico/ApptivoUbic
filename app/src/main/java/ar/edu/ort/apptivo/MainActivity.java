@@ -2,7 +2,6 @@ package ar.edu.ort.apptivo;
 
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -67,9 +66,9 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v)
         {
-            Uri uri = Uri.parse("http://www.google.com");
-            Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-            startActivity(intent);
+
+            Intent myIntent = new Intent(MainActivity.this, RegistrarActivity.class);
+            MainActivity.this.startActivity(myIntent);
         }
     };
 
