@@ -107,7 +107,7 @@ public class RegistrarActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[3]+ "/" + parametros[1] +"/"+parametros[2]+"/"+parametros[4]+"/"+parametros[5];
+            String Url= parametros[2]+ "/" + parametros[0] +"/"+parametros[1]+"/"+parametros[3]+"/"+parametros[4];
             Request request = new Request.Builder()
                     .url(Url)
                     .build();

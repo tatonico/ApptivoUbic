@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity {
     EditText edtMail;
     EditText edtPass;
     TextView lblRegistrar;
-    public Usuario miUsuario;
     Button btnIngreso, btnNoAccount, btnRegistrar;
     String strUser= "tato@gmail.com";
     String strPass= "12345678";
@@ -93,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (Error)
         {
-            new LoginTask().execute(edtMail.getText().toString(), edtPass.getText().toString(), "http://apptivodatabase.azurewebsites.net/api/api/Login/");
+            new LoginTask().execute(edtMail.getText().toString(), edtPass.getText().toString(), "http://apptivodatabase.azurewebsites.net/api/api/Login");
         }
         else
         {
@@ -118,11 +117,8 @@ public class MainActivity extends AppCompatActivity {
 
         protected void onPostExecute(Usuario usuario) {
             super.onPostExecute(usuario);
-            Boolean UsoWebSErvice =true;
-            Gson gson = new Gson();
 
-            String datos = ApiMock.getLogin();
-            if (UsoWebSErvice) {
+            Log.d("usuario", usuario.Mail);
                 if(usuario.Mail != "") {
                     Intent intent = new Intent(getApplicationContext(), NavigationDrawerActivity.class);
                     StaticItem.setObjeto(usuario);
@@ -131,32 +127,32 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Toast msg = Toast.makeText(getApplicationContext(),"Usuario y password no coinciden." , Toast.LENGTH_SHORT);
+                    Toast msg = Toast.makeText(getApplicationContext(),"Usuario y/o password incorrecto." , Toast.LENGTH_SHORT);
                     msg.show();
                 }
-            }else {
-                Usuario us= gson.fromJson(datos, Usuario.class);
-                Intent intent = new Intent(getApplicationContext(), NavigationDrawerActivity.class);
-                StaticItem.setObjeto(us);
-                startActivity(intent);
-                finish();
-            }
         }
         @Override
         protected Usuario doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[3]+ "/" + parametros[1] +"/"+parametros[2];
+            String Url= parametros[2]+ "/" + parametros[0] +"/"+parametros[1];
             Request request = new Request.Builder()
                     .url(Url)
                     .build();
             try {
                 Response response = client.newCall(request).execute();  // Llamo al API Rest servicio1 en localhost
                 String resultado = response.body().string();
-                Gson gson = new Gson();
-                miUsuario = gson.fromJson(resultado, Usuario.class);
-                return miUsuario;
+                Log.d("resultado", resultado);
+                if (resultado.length()==4)
+                {   Log.d("resultado", resultado);
+                    return new Usuario();
+                }                else{
+                    Gson gson = new Gson();
+                    Usuario miUsuario = gson.fromJson(resultado, Usuario.class);
+                    return miUsuario;
+                }
+
             } catch (IOException e) {
-                Log.d("Error",e.getMessage());             // Error de Network
+                Log.d("usuario",e.getMessage());             // Error de Network
                 return new Usuario();
             }
         }

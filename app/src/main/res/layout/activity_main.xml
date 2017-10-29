@@ -20,6 +20,7 @@
         android:layout_alignStart="@+id/edtPass"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:text="sdsadsadas@sdsasad.com"
         android:textSize="16sp" />
 
     <Button

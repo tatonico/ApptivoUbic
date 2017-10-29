@@ -6,8 +6,8 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1508511208396"
-    token="8161296638684968097"
+    timestamp="1509319603105"
+    token="-7233335042114650004"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
@@ -23,58 +23,66 @@
         name="verifier"
         duration="0" />
 
+    <artifact
+        location="C:\ApptivoUbic\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
+
     <build
         build-mode="FULL"
-        timestamp="1508504337794"
+        timestamp="1509313015798"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\outputs\apk\app-debug.apk"
+            location="C:\ApptivoUbic\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1508510950393"
+        timestamp="1509319545201"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Proy\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1508511208396"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1509319603105"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\ApptivoUbic\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>
