@@ -115,21 +115,24 @@ public class MainActivity extends AppCompatActivity {
     }
     private class LoginTask extends AsyncTask<String, Void, Usuario> {
 
-        protected void onPostExecute(Usuario usuario) {
-            super.onPostExecute(usuario);
+        protected void onPostExecute(Usuario us) {
+            super.onPostExecute(us);
+    
+            try {
 
-            Log.d("usuario", usuario.Mail);
-                if(usuario.Mail != "") {
+                if (us.Nombre != null) {
                     Intent intent = new Intent(getApplicationContext(), NavigationDrawerActivity.class);
-                    StaticItem.setObjeto(usuario);
+                    StaticItem.setObjeto(us);
                     startActivity(intent);
                     finish();
-                }
-                else
-                {
-                    Toast msg = Toast.makeText(getApplicationContext(),"Usuario y/o password incorrecto." , Toast.LENGTH_SHORT);
+                } else {
+                    Toast msg = Toast.makeText(getApplicationContext(), "Usuario y/o password incorrecto.", Toast.LENGTH_SHORT);
                     msg.show();
                 }
+            }catch(Exception e)
+            {
+                Toast.makeText(MainActivity.this, us.Mail, Toast.LENGTH_SHORT).show();
+            }
         }
         @Override
         protected Usuario doInBackground(String... parametros) {

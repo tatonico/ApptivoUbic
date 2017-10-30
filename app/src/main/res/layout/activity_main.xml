@@ -20,7 +20,7 @@
         android:layout_alignStart="@+id/edtPass"
         android:hint="Email"
         android:inputType="textEmailAddress"
-        android:text="sdsadsadas@sdsasad.com"
+        android:text="tato@hotmail.com"
         android:textSize="16sp" />
 
     <Button
@@ -76,6 +76,7 @@
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+        android:text="tato1234"
         android:textSize="16sp" />
 
     <ImageView
