@@ -53,7 +53,7 @@ public class RegistrarActivity extends AppCompatActivity {
                     if (txtContraseña.length() > 7) {
                         if (txtContraseña.getText().toString() == txtRepetirContraseña.getText().toString()) {
                             new RegistrarTask().execute(txtNombre.getText().toString(), txtApellido.getText().toString(),
-                                    "http://apptivodatabase.azurewebsites.net/api/api/Login/",
+                                    "http://apptivodatabase.azurewebsites.net/api/api/Registrar/",
                                     txtMail.getText().toString(), txtContraseña.getText().toString());
                         } else {
                             Toast.makeText(RegistrarActivity.this, "Los campos de contraseña y repetir contraseña no coinciden.", Toast.LENGTH_SHORT).show();
