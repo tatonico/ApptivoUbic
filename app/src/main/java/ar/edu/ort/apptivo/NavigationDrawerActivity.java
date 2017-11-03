@@ -71,6 +71,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
     private GoogleMap mMap;
+    ArrayList<Linea> ListaLineas = new ArrayList<>();
     GoogleApiClient mGoogleApiClient;
     Location mLastLocation;
     Marker mCurrLocationMarker;
@@ -598,8 +599,8 @@ public class NavigationDrawerActivity extends AppCompatActivity
             private void ParsearJson(String strJSON){
                 JSONObject rootObject, currentRoute, currentLeg , currentline, currentDetails = null;
                 JSONArray  routes,legs,steps;
-                ArrayList<String> ListaLineas = new ArrayList<>();
                 String Linea;
+                Linea ObjLinea = new Linea();
 
                 try {
                     rootObject = new JSONObject(strJSON);
@@ -631,10 +632,10 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                         Log.d("TATO 2.35", currentline.toString());
                                         try {
                                             if(!currentline.isNull("short_name")) {
-                                                String line = currentline.getString("short_name");
-                                                Log.d("TATO 2.4", line);
+                                                ObjLinea.nombre = currentline.getString("short_name");
+                                                Log.d("TATO 2.4", ObjLinea.nombre);
                                                 Log.d("TATO", String.valueOf(u) + "-"+ String.valueOf(h));
-                                                ListaLineas.add(line);
+                                                ListaLineas.add(ObjLinea);
                                             }
                                         } catch (Exception e) {
                                             Log.d("Parseo", e.getMessage().toString());
@@ -710,14 +711,14 @@ public class NavigationDrawerActivity extends AppCompatActivity
                             for (int k = 0; k < jSteps.length(); k++) {
                                 String polyline = "";
                                 polyline = (String) ((JSONObject) ((JSONObject) jSteps.get(k)).get("polyline")).get("points");
-                                List<LatLng> list = decodePoly(polyline);
-                                for (int l = 0; l < list.size(); l++) {
-                                    HashMap<String, String> hm = new HashMap<String, String>();
-                                    hm.put("lat",
-                                            Double.toString(((LatLng) list.get(l)).latitude));
-                                    hm.put("lng",
-                                            Double.toString(((LatLng) list.get(l)).longitude));
-                                    path.add(hm);
+                                    List<LatLng> list = decodePoly(polyline);
+                                    for (int l = 0; l < list.size(); l++) {
+                                        HashMap<String, String> hm = new HashMap<String, String>();
+                                        hm.put("lat",
+                                                Double.toString(((LatLng) list.get(l)).latitude));
+                                        hm.put("lng",
+                                                Double.toString(((LatLng) list.get(l)).longitude));
+                                        path.add(hm);
                                 }
                             }
                             routes.add(path);
