@@ -204,7 +204,6 @@ public class NavigationDrawerActivity extends AppCompatActivity
         @Override
         public void onClick(View v) {
             if (!edtpartida.getText().toString().isEmpty() && !edtllegada.getText().toString().isEmpty()) {
-                Log.d("entra", "entra");
                 AlertDialog.Builder builder = new AlertDialog.Builder(NavigationDrawerActivity.this);
                 builder.setMessage("Usted indico bien la calle " + edtpartida.getText().toString()
                         + " y " + edtllegada.getText().toString() + " ?")
@@ -603,7 +602,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                 JSONObject rootObject, currentRoute, currentLeg , currentline, currentDetails = null;
                 JSONArray  routes,legs,steps;
                 String Linea;
-                Linea ObjLinea = new Linea();
+
 
                 try {
                     rootObject = new JSONObject(strJSON);
@@ -635,6 +634,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                         Log.d("TATO 2.35", currentline.toString());
                                         try {
                                             if(!currentline.isNull("short_name")) {
+                                                Linea ObjLinea = new Linea();
                                                 ObjLinea.nombre = currentline.getString("short_name");
                                                 Log.d("TATO 2.4", ObjLinea.nombre);
                                                 Log.d("TATO", String.valueOf(u) + "-"+ String.valueOf(h));
