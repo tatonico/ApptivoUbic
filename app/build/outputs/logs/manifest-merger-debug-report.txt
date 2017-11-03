@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:3:5-33
 		INJECTED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml
@@ -45,7 +45,7 @@ ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:19:5-79
 	android:name
 		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:19:22-76
 application
-ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:21:5-54:19
+ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:21:5-55:19
 MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Lucas\.android\build-cache\c1d5aedd28e15ab837125247705ddfdd978a54dc\output\AndroidManifest.xml:11:5-14:19
 MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Lucas\.android\build-cache\9ef961a5c2ff588a67d363dd4cfa66d86201375f\output\AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Lucas\.android\build-cache\0d5b0a96aa1b8d1b916f0a3df3ff197cb15c00f1\output\AndroidManifest.xml:24:5-32:19
@@ -122,9 +122,13 @@ ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:49:9-52:59
 	android:name
 		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:50:13-53
 activity#ar.edu.ort.apptivo.RegistrarActivity
-ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:53:9-64
+ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:53:9-55
 	android:name
 		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:53:19-52
+activity#ar.edu.ort.apptivo.LineasActivity
+ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:54:9-61
+	android:name
+		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:54:19-49
 uses-sdk
 INJECTED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.github.fafaldo:fab-toolbar:1.2.0] C:\Users\Lucas\.android\build-cache\c1d5aedd28e15ab837125247705ddfdd978a54dc\output\AndroidManifest.xml:7:5-9:41

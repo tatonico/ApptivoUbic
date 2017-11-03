@@ -65,6 +65,7 @@
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="ar.edu.ort.apptivo.RegistrarActivity" />
+        <activity android:name="ar.edu.ort.apptivo.LineasActivity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

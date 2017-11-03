@@ -50,7 +50,8 @@
             android:name=".NavigationDrawerActivity"
             android:label="@string/title_activity_navigation_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".RegistrarActivity"></activity>
+        <activity android:name=".RegistrarActivity" />
+        <activity android:name=".LineasActivity"></activity>
     </application>
 
 </manifest>

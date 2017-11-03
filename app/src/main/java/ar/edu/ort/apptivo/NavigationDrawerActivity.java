@@ -4,6 +4,7 @@ import android.Manifest;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Address;
@@ -226,7 +227,9 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                             .position(latlngLlegada)
                                             .title("Llegada"));
                                     DibujarCamino(latlngPartida, latlngLlegada);
-
+                                    Intent intent=new Intent(NavigationDrawerActivity.this, LineasActivity.class);
+                                    intent.putExtra("list", ListaLineas);
+                                    startActivity(intent);
                                 }
                                 catch(Exception e)
                                 {
