@@ -3,6 +3,7 @@ package ar.edu.ort.apptivo;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.sax.StartElementListener;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -30,13 +31,16 @@ public class RegistrarActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registrar);
+
+        SetearReferencias();
+        SetearListener();
     }
     public void SetearReferencias(){
         btnRegistrar = (Button)findViewById(R.id.btnRegistrar);
         txtNombre = (TextView)findViewById(R.id.txtNombre);
-        txtApellido = (TextView)findViewById(R.id.txtNombre);
-        txtMail = (TextView)findViewById(R.id.txtNombre);
-        txtContraseña = (TextView)findViewById(R.id.txtNombre);
+        txtApellido = (TextView)findViewById(R.id.txtApellido);
+        txtMail = (TextView)findViewById(R.id.txtEmail);
+        txtContraseña = (TextView)findViewById(R.id.txtContraseña);
         txtRepetirContraseña = (TextView)findViewById(R.id.txtRepetirContraseña);
 
     }
@@ -51,10 +55,14 @@ public class RegistrarActivity extends AppCompatActivity {
                     txtRepetirContraseña.getText().toString() != "") {
                 if (isEmailValid(txtMail.getText().toString())) {
                     if (txtContraseña.length() > 7) {
-                        if (txtContraseña.getText().toString() == txtRepetirContraseña.getText().toString()) {
+                        if (txtContraseña.getText().toString().equals(txtRepetirContraseña.getText().toString()) ) {
                             new RegistrarTask().execute(txtNombre.getText().toString(), txtApellido.getText().toString(),
                                     "http://apptivodatabase.azurewebsites.net/api/api/Registrar/",
                                     txtMail.getText().toString(), txtContraseña.getText().toString());
+                            Intent intent = new Intent(RegistrarActivity.this, MainActivity.class);
+                            finish();
+                            startActivity(intent);
+
                         } else {
                             Toast.makeText(RegistrarActivity.this, "Los campos de contraseña y repetir contraseña no coinciden.", Toast.LENGTH_SHORT).show();
                         }
@@ -107,7 +115,7 @@ public class RegistrarActivity extends AppCompatActivity {
         @Override
         protected String doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[2]+ "/" + parametros[0] +"/"+parametros[1]+"/"+parametros[3]+"/"+parametros[4];
+            String Url= parametros[2] + parametros[0] +"/"+parametros[1]+"/"+parametros[3]+"/"+parametros[4];
             Request request = new Request.Builder()
                     .url(Url)
                     .build();

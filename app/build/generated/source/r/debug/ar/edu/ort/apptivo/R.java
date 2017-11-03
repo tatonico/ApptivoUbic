@@ -3608,8 +3608,8 @@ containing a value of this type.
         public static final int touch_outside=0x7f0d00b4;
         public static final int tres=0x7f0d00b2;
         public static final int txtApellido=0x7f0d00a4;
-        public static final int txtContraseña=0x7f0d00a6;
-        public static final int txtEmail=0x7f0d00a5;
+        public static final int txtContraseña=0x7f0d00a5;
+        public static final int txtEmail=0x7f0d00a6;
         public static final int txtNombre=0x7f0d00a3;
         public static final int txtRepetirContraseña=0x7f0d00a7;
         public static final int uno=0x7f0d00b0;

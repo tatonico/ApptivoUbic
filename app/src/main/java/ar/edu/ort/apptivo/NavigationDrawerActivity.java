@@ -78,7 +78,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
     Marker mCurrLocationMarker;
     LocationRequest mLocationRequest;
     private FABToolbarLayout morph;
-    private Button btnOK;
+    Button btnOK;
     EditText edtpartida, edtllegada;
     ImageView uno,dos,tres,cuatro;
     boolean boolArriba= false;
@@ -226,6 +226,9 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                             .position(latlngLlegada)
                                             .title("Llegada"));
                                     DibujarCamino(latlngPartida, latlngLlegada);
+                                    MapHttpConnection http = new MapHttpConnection();
+                                    String url = getMapsApiDirectionsUrl(latlngPartida, latlngLlegada);
+                                    String data = http.readUr(url);
                                     Intent intent=new Intent(NavigationDrawerActivity.this, LineasActivity.class);
                                     intent.putExtra("list", ListaLineas);
                                     startActivity(intent);
@@ -380,7 +383,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
     public void SendCoordinates(){
         if (boolArriba){
         new SendTask().execute(String.valueOf(LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
-                "http://localost/", SelectedLine);
+                "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", SelectedLine);
         }
         timer.start();
     }
@@ -389,7 +392,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         protected void onPostExecute(String confirmacion) {
             super.onPostExecute(confirmacion);
             if (confirmacion == "Good"){
-
+                Log.i("Coordenada enviada", "GOOD ");
             }else{
                 Log.i("Coordenada enviada", "BAD");
             }
@@ -397,7 +400,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         @Override
         protected String doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[3]+ "/" + parametros[1] +"/"+parametros[2] + "/" + parametros[4];
+            String Url= parametros[3] + parametros[1] +"/"+parametros[2] + "/" + parametros[4];
             Request request = new Request.Builder()
                     .url(Url)
                     .build();
@@ -618,7 +621,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                         Log.d("TATO 1.1", legs.toString());
                         for (int u=0; u< legs.length(); u++) {
 
-                            currentLeg = legs.getJSONObject(i);
+                            currentLeg = legs.getJSONObject(u);
                             Log.d("TATO 2", currentLeg.toString());
                             steps = currentLeg.getJSONArray("steps");
                             for (int h=0; h< steps.length(); h++) {
@@ -654,7 +657,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                     }
                 } catch (Throwable t) {
                     Log.d("TATO", "Could not parse malformed JSON: \"" + strJSON + "\"");
-
+Log.d("ERRORPARSEO", String.valueOf(Thread.currentThread().getStackTrace()[0].getLineNumber()));
                 }
             }
 

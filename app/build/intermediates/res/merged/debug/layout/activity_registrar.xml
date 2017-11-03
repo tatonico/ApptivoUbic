@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/wallet_highlighted_text_holo_dark"
+    android:scrollbars="horizontal"
     tools:context="ar.edu.ort.apptivo.RegistrarActivity">
 
-    <Button
-        android:id="@+id/btnRegistrar"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Registrar"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="434dp" />
+        android:layout_height="120dp"
+
+        app:srcCompat="@drawable/bondifoto"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="25dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/txtNombre"
@@ -22,12 +28,17 @@
         android:hint="Nombre"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="88dp" />
+        tools:layout_editor_absoluteY="88dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/txtApellido" />
 
     <EditText
         android:id="@+id/txtApellido"
         android:layout_width="244dp"
         android:layout_height="45dp"
+        android:layout_alignStart="@+id/txtContraseña"
+        android:layout_below="@+id/txtNombre"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:hint="Apellido"
         android:inputType="textPersonName"
@@ -42,7 +53,10 @@
         android:hint="E-mail"
         android:inputType="textPersonName"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="223dp" />
+        tools:layout_editor_absoluteY="223dp"
+        android:layout_above="@+id/txtNombre"
+        android:layout_alignStart="@+id/txtNombre"
+        android:layout_marginBottom="20dp" />
 
     <EditText
         android:id="@+id/txtContraseña"
@@ -52,7 +66,10 @@
         android:hint="Contraseña"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="292dp" />
+        tools:layout_editor_absoluteY="292dp"
+        android:layout_below="@+id/txtApellido"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp" />
 
     <EditText
         android:id="@+id/txtRepetirContraseña"
@@ -62,14 +79,19 @@
         android:hint="Repita su contraseña"
         android:inputType="textPassword"
         tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="361dp" />
+        tools:layout_editor_absoluteY="361dp"
+        android:layout_below="@+id/txtContraseña"
+        android:layout_alignStart="@+id/txtContraseña"
+        android:layout_marginTop="12dp" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <Button
+        android:id="@+id/btnRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="166dp"
-        tools:layout_editor_absoluteY="25dp" />
+        android:text="Registrar"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="434dp"
+        android:layout_below="@+id/txtRepetirContraseña"
+        android:layout_centerHorizontal="true" />
 
-</android.support.constraint.ConstraintLayout>
+</RelativeLayout>
