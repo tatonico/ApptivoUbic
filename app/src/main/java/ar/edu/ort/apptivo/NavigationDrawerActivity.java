@@ -141,16 +141,16 @@ public class NavigationDrawerActivity extends AppCompatActivity
         edtllegada = (EditText) findViewById(R.id.myEditText2);
         uno= (ImageView) findViewById(R.id.uno);
         dos= (ImageView) findViewById(R.id.dos);
-        tres= (ImageView) findViewById(R.id.tres);
-        cuatro= (ImageView) findViewById(R.id.cuatro);
+        /*tres= (ImageView) findViewById(R.id.tres);
+        cuatro= (ImageView) findViewById(R.id.cuatro);*/
     }
     public void ClickListeners()
     {
         btnOK.setOnClickListener(Click);
         uno.setOnClickListener(ClickUno);
         dos.setOnClickListener(ClickDos);
-        tres.setOnClickListener(ClickTres);
-        cuatro.setOnClickListener(ClickCuatro);
+        /*tres.setOnClickListener(ClickTres);
+        cuatro.setOnClickListener(ClickCuatro);*/
     }
     View.OnClickListener ClickUno =new View.OnClickListener()
     {
@@ -382,7 +382,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         }
     public void SendCoordinates(){
         if (boolArriba){
-        new SendTask().execute(String.valueOf(LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
+        new SendTask().execute(StaticItem.Mail, String.valueOf( LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
                 "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", SelectedLine);
         }
         timer.start();
@@ -400,7 +400,31 @@ public class NavigationDrawerActivity extends AppCompatActivity
         @Override
         protected String doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[3] + parametros[1] +"/"+parametros[2] + "/" + parametros[4];
+            String Url= parametros[3] + parametros[0] +"/"+parametros[4] + "/" + parametros[2]+"/"+ parametros[3] ;
+            Request request = new Request.Builder()
+                    .url(Url)
+                    .build();
+            try {
+                Response response = client.newCall(request).execute();  // Llamo al API Rest servicio1 en localhost
+                String resultado = response.body().string();
+                return resultado;
+            } catch (IOException e) {
+                Log.d("Error",e.getMessage());             // Error de Network
+                return e.getMessage();
+            }
+        }
+    }
+    private class TraerTask extends AsyncTask<String, Void, String> {
+//new TraerTask().execute("http://apptivodatabase.azurewebsites.net/api/api/CoordenadasxLinea/", SelectedLine);
+        protected void onPostExecute(String confirmacion) {
+            super.onPostExecute(confirmacion);
+            JSONArray Vec= new JSONArray();
+            //routes = rootObject.getJSONArray("routes");
+        }
+        @Override
+        protected String doInBackground(String... parametros) {
+            OkHttpClient client = new OkHttpClient();
+            String Url= parametros[0] + parametros[1] ;
             Request request = new Request.Builder()
                     .url(Url)
                     .build();
@@ -438,30 +462,30 @@ public class NavigationDrawerActivity extends AppCompatActivity
 
         @Override
         public void onLocationChanged(Location location) {
-
-            mLastLocation = location;
-            //Place current location marker
-            LastCoordinates = new LatLng(location.getLatitude(), location.getLongitude());
+            if (StaticItem.Mail!=null) {
+                mLastLocation = location;
+                //Place current location marker
+                LastCoordinates = new LatLng(location.getLatitude(), location.getLongitude());
         /*MarkerOptions markerOptions = new MarkerOptions();
         markerOptions.position(latLng);
         markerOptions.title("Posicion actual para Polshu.");
         mCurrLocationMarker = mMap.addMarker(markerOptions);*/
-            mMap.clear();
-            drawCircle(LastCoordinates, "#3684D7");
-            Log.d("latlngformat", LastCoordinates.toString());
+                mMap.clear();
+                drawCircle(LastCoordinates, "#3684D7");
+                Log.d("latlngformat", LastCoordinates.toString());
 
-            //move map camera
-            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LastCoordinates, 15));
+                //move map camera
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LastCoordinates, 15));
         /*mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(14));*/
 
-            //stop location updates
-            if (mGoogleApiClient != null) {
-                LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+                //stop location updates
+                if (mGoogleApiClient != null) {
+                    LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+                }
+
             }
-
         }
-
         @Override
         public void onConnectionFailed(ConnectionResult connectionResult) {
 

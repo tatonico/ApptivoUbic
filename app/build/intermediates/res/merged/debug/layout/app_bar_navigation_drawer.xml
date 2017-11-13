@@ -108,22 +108,6 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/baje" />
 
-            <ImageView
-                android:id="@+id/tres"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:scaleType="centerInside"
-                android:src="@drawable/abc_ic_menu_selectall_mtrl_alpha" />
-
-            <ImageView
-                android:id="@+id/cuatro"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:scaleType="centerInside"
-                android:src="@drawable/abc_ic_menu_cut_mtrl_alpha" />
-
         </LinearLayout>
 
     </com.github.fafaldo.fabtoolbar.widget.FABToolbarLayout>
