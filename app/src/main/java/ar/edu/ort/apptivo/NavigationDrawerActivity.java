@@ -226,12 +226,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                             .position(latlngLlegada)
                                             .title("Llegada"));
                                     DibujarCamino(latlngPartida, latlngLlegada);
-                                    MapHttpConnection http = new MapHttpConnection();
-                                    String url = getMapsApiDirectionsUrl(latlngPartida, latlngLlegada);
-                                    String data = http.readUr(url);
-                                    Intent intent=new Intent(NavigationDrawerActivity.this, LineasActivity.class);
-                                    intent.putExtra("list", ListaLineas);
-                                    startActivity(intent);
+
                                 }
                                 catch(Exception e)
                                 {
@@ -621,7 +616,6 @@ public class NavigationDrawerActivity extends AppCompatActivity
                     Log.d("Background Task", e.toString());
                 }
                 Log.d("TATO", data);
-                ParsearJson(data);
                 return data;
             }
 
@@ -689,6 +683,10 @@ Log.d("ERRORPARSEO", String.valueOf(Thread.currentThread().getStackTrace()[0].ge
             protected void onPostExecute(String result) {
                 super.onPostExecute(result);
                 new ParserTask().execute(result);
+                ParsearJson(result);
+                Intent intent=new Intent(NavigationDrawerActivity.this, LineasActivity.class);
+                intent.putExtra("list", ListaLineas);
+                startActivity(intent);
             }
 
         }
