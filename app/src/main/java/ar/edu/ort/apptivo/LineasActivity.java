@@ -24,19 +24,18 @@ public class LineasActivity extends AppCompatActivity {
 
         if(b!=null)
         {
-            j =(ArrayList) b.get("list");
+            j =(ArrayList)b.get("list");
         }
-
+//tatonico luciana321321 tato_izraelski@hotmail.com
 
         for(int i=0; i < j.size(); i++){
             line = j.get(i);
-            d.add(line.nombre);
+            if (!d.contains(line.nombre)) {
+                d.add(line.nombre);
+            }
         }
-
-
-
-
-        ArrayAdapter<Linea> ListAdapter = new ArrayAdapter<Linea> ( this,android.R.layout.simple_list_item_1,j);
+        ArrayAdapter<String> ListAdapter = new ArrayAdapter<String> ( this,android.R.layout.simple_list_item_1,d);
         lvwLineas.setAdapter(ListAdapter);
+
     }
 }

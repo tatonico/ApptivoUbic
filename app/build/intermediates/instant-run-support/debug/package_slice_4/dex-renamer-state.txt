@@ -1,4 +1,4 @@
-#Sun Nov 12 23:18:09 ART 2017
+#Wed Nov 15 10:59:39 ART 2017
 base.0=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
 renamed.0=classes.dex
 file.0=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex

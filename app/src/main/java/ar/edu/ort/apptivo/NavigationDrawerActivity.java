@@ -85,7 +85,6 @@ public class NavigationDrawerActivity extends AppCompatActivity
     LatLng LastCoordinates;
     String SelectedLine;
     CountDownTimer timer;
-    UiSettings uiset;
 
 
     @Override
@@ -141,16 +140,12 @@ public class NavigationDrawerActivity extends AppCompatActivity
         edtllegada = (EditText) findViewById(R.id.myEditText2);
         uno= (ImageView) findViewById(R.id.uno);
         dos= (ImageView) findViewById(R.id.dos);
-        /*tres= (ImageView) findViewById(R.id.tres);
-        cuatro= (ImageView) findViewById(R.id.cuatro);*/
     }
     public void ClickListeners()
     {
         btnOK.setOnClickListener(Click);
         uno.setOnClickListener(ClickUno);
         dos.setOnClickListener(ClickDos);
-        /*tres.setOnClickListener(ClickTres);
-        cuatro.setOnClickListener(ClickCuatro);*/
     }
     View.OnClickListener ClickUno =new View.OnClickListener()
     {
@@ -182,24 +177,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             }
         }
     };
-    View.OnClickListener ClickTres =new View.OnClickListener()
-    {
-        @Override
-        public void onClick(View v)
-        {
-            morph.hide();
-            Toast.makeText(NavigationDrawerActivity.this, "Tres", Toast.LENGTH_SHORT).show();
-        }
-    };
-    View.OnClickListener ClickCuatro =new View.OnClickListener()
-    {
-        @Override
-        public void onClick(View v)
-        {
-            morph.hide();
-            Toast.makeText(NavigationDrawerActivity.this, "Cuatro", Toast.LENGTH_SHORT).show();
-        }
-    };
+
     View.OnClickListener Click = new View.OnClickListener() {
         @Override
         public void onClick(View v) {
@@ -212,19 +190,24 @@ public class NavigationDrawerActivity extends AppCompatActivity
                             public void onClick(DialogInterface dialog, int id) {
                                 Toast.makeText(NavigationDrawerActivity.this, "Gracias por indicar", Toast.LENGTH_SHORT).show();
                                 try {
+                                    Log.i("Number", "4");
                                     LatLng latlngPartida = getLocationFromAddress(NavigationDrawerActivity.this, edtpartida.getText().toString());
+                                    Log.i("Number", "5");
                                     LatLng latlngLlegada = getLocationFromAddress(NavigationDrawerActivity.this, edtllegada.getText().toString());
+                                    Log.i("Number", "6 pollo queso lechuga tomate");
                                     mMap.clear();
                             /*drawCircle(latlngLlegada, "#E41436");
                             drawCircle(latlngPartida, "#30BA59");*/
 
-
+                                    Log.i("Number", "1");
                                     mMap.addMarker(new MarkerOptions()
                                             .position(latlngPartida)
                                             .title("Partida"));
+                                    Log.i("Number", "2");
                                     mMap.addMarker(new MarkerOptions()
                                             .position(latlngLlegada)
                                             .title("Llegada"));
+                                    Log.i("Number", "3");
                                     DibujarCamino(latlngPartida, latlngLlegada);
 
                                 }
@@ -625,9 +608,10 @@ public class NavigationDrawerActivity extends AppCompatActivity
                 String Linea;
 
 
+
                 try {
                     rootObject = new JSONObject(strJSON);
-                    //Log.d("TATO", rootObject.toString());
+                    Log.d("URL", strJSON);
                    routes = rootObject.getJSONArray("routes");
                     Log.d("TATO 0", routes.toString());
 
@@ -657,6 +641,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                             if(!currentline.isNull("short_name")) {
                                                 Linea ObjLinea = new Linea();
                                                 ObjLinea.nombre = currentline.getString("short_name");
+                                                ObjLinea.polyline="";
                                                 Log.d("TATO 2.4", ObjLinea.nombre);
                                                 Log.d("TATO", String.valueOf(u) + "-"+ String.valueOf(h));
                                                 ListaLineas.add(ObjLinea);
@@ -839,11 +824,13 @@ Log.d("ERRORPARSEO", String.valueOf(Thread.currentThread().getStackTrace()[0].ge
                     polyLineOptions.width(4);
                     polyLineOptions.color(Color.BLUE);
                 }
-
-                mMap.addPolyline(polyLineOptions);
+try {
+    mMap.addPolyline(polyLineOptions);
+}catch (Exception e){}
+}
 
             }
-        }
+
 
         public void DibujarCamino(LatLng latlngOne, LatLng latlngTwo) {
             String url = getMapsApiDirectionsUrl(latlngOne, latlngTwo);
