@@ -641,7 +641,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
                                             if(!currentline.isNull("short_name")) {
                                                 Linea ObjLinea = new Linea();
                                                 ObjLinea.nombre = currentline.getString("short_name");
-                                                ObjLinea.polyline="";
+                                                ObjLinea.polyline=currentStep.getJSONObject("polyline").getString("points");
                                                 Log.d("TATO 2.4", ObjLinea.nombre);
                                                 Log.d("TATO", String.valueOf(u) + "-"+ String.valueOf(h));
                                                 ListaLineas.add(ObjLinea);
