@@ -85,7 +85,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
     LatLng LastCoordinates;
     String SelectedLine;
     CountDownTimer timer;
-
+String Linea;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +101,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             Bundle b = intent.getExtras();
             if (b != null) {
                 Linea lineaPicked = (Linea) b.get("linea");
+                Linea = lineaPicked.nombre;
                 Log.d("Dibujo", lineaPicked.nombre);
                 PathJSONParser p = new PathJSONParser();
                 List<LatLng> list = p.decodePoly(lineaPicked.polyline);
@@ -201,6 +202,22 @@ public class NavigationDrawerActivity extends AppCompatActivity
             else {
                 Toast.makeText(NavigationDrawerActivity.this, "Gracias por avisar que se ha subico.", Toast.LENGTH_SHORT).show();
                 boolArriba = true;
+                timer = new CountDownTimer(5000, 20) {
+
+                    @Override
+                    public void onTick(long millisUntilFinished) {
+
+                    }
+
+                    @Override
+                    public void onFinish() {
+                        try{
+                            SendCoordinates(Linea);
+                        }catch(Exception e){
+                            Log.e("Error", "Error: " + e.toString());
+                        }
+                    }
+                }.start();
             }
         }
     };
@@ -213,6 +230,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
             if (boolArriba) {
                 Toast.makeText(NavigationDrawerActivity.this, "Gracias por indicar que ya no esta en el colectivo", Toast.LENGTH_SHORT).show();
                 boolArriba= false;
+                timer.cancel();
             }
             else {
                 Toast.makeText(NavigationDrawerActivity.this, "Usted no esta en un colectivo.", Toast.LENGTH_SHORT).show();
@@ -361,23 +379,6 @@ public class NavigationDrawerActivity extends AppCompatActivity
 
 
 
-            timer = new CountDownTimer(5000, 20) {
-
-                @Override
-                public void onTick(long millisUntilFinished) {
-
-                }
-
-                @Override
-                public void onFinish() {
-                    try{
-                        SendCoordinates();
-                    }catch(Exception e){
-                        Log.e("Error", "Error: " + e.toString());
-                    }
-                }
-            }.start();
-
             //Initialize Google Play Services
             if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 if (ContextCompat.checkSelfPermission(this,
@@ -400,10 +401,10 @@ public class NavigationDrawerActivity extends AppCompatActivity
                     .build();
             mGoogleApiClient.connect();
         }
-    public void SendCoordinates(){
+    public void SendCoordinates(String linea){
         if (boolArriba){
         new SendTask().execute(StaticItem.Mail, String.valueOf( LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
-                "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", SelectedLine);
+                "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", linea);
         }
         timer.start();
     }
