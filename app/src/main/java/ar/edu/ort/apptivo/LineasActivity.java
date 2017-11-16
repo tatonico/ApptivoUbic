@@ -39,7 +39,7 @@ public class LineasActivity extends AppCompatActivity {
             line = j.get(i);
             if (!d.contains(line.nombre)) {
                 jnew.add(line);
-                d.add(line.nombre);
+                d.add(line.nombre +"    " + line.tiempollegada);
             }
         }
         ArrayAdapter<String> ListAdapter = new ArrayAdapter<String> ( this,android.R.layout.simple_list_item_1,d);
@@ -51,6 +51,7 @@ public class LineasActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),NavigationDrawerActivity.class);
                 intent.putExtra("linea", lineaselected);
                 startActivity(intent);
+                finish();
             } });
     }
 

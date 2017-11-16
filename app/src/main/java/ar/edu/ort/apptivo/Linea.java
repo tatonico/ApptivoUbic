@@ -7,5 +7,6 @@ package ar.edu.ort.apptivo;
 public class Linea implements java.io.Serializable {
     public String nombre;
     public String polyline;
+    public String tiempollegada;
 
 }

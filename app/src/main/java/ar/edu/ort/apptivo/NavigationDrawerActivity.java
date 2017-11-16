@@ -44,6 +44,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
@@ -70,9 +71,9 @@ public class NavigationDrawerActivity extends AppCompatActivity
         GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
-    private GoogleMap mMap;
+    public GoogleMap mMap;
     ArrayList<Linea> ListaLineas = new ArrayList<>();
-    ArrayList<LatLng> points;
+    ArrayList<LatLng> listpoints;
     GoogleApiClient mGoogleApiClient;
     Location mLastLocation;
     Marker mCurrLocationMarker;
@@ -95,49 +96,7 @@ String Linea;
         setSupportActionBar(toolbar);
         ObtenerRef();
         ClickListeners();
-        try {
-            final Intent intent = getIntent();
-            Log.d("Dibujo", "1");
-            Bundle b = intent.getExtras();
-            if (b != null) {
-                Linea lineaPicked = (Linea) b.get("linea");
-                Linea = lineaPicked.nombre;
-                Log.d("Dibujo", lineaPicked.nombre);
-                PathJSONParser p = new PathJSONParser();
-                List<LatLng> list = p.decodePoly(lineaPicked.polyline);
-                List<HashMap<String, String>> path = new ArrayList<HashMap<String, String>>();
-                for (int l = 0; l < list.size(); l++) {
-                    HashMap<String, String> hm = new HashMap<String, String>();
-                    hm.put("lat",
-                            Double.toString(((LatLng) list.get(l)).latitude));
-                    hm.put("lng",
-                            Double.toString(((LatLng) list.get(l)).longitude));
-                    path.add(hm);
-                    points = null;
-                    PolylineOptions pOptions = null;
 
-
-                    // traversing through routes
-                    for (int j = 0; j < path.size(); j++) {
-                        HashMap<String, String> point = path.get(j);
-                        double lat = Double.parseDouble(point.get("lat"));
-                        double lng = Double.parseDouble(point.get("lng"));
-                        LatLng position = new LatLng(lat, lng);
-                        points.add(position);
-                        Log.d("Dibujo", "5");
-                    }
-
-                    pOptions.addAll(points);
-                    Log.d("Dibujo", "6");
-                    pOptions.width(4);
-                    pOptions.color(Color.BLUE);
-                    mMap.addPolyline(pOptions);
-                    Log.d("Dibujo", "7");
-                }
-            }
-        }catch(Exception e){
-            Toast.makeText(this, "Al menos llega", Toast.LENGTH_SHORT).show();
-        }
 
 
 
@@ -391,6 +350,7 @@ String Linea;
                 buildGoogleApiClient();
                 mMap.setMyLocationEnabled(true);
             }
+            DibujarPoli();
         }
 
         protected synchronized void buildGoogleApiClient() {
@@ -481,17 +441,15 @@ String Linea;
             mMap.clear();
         }
 
+
         @Override
         public void onLocationChanged(Location location) {
-            if (StaticItem.Mail!=null) {
+            //if (StaticItem.Mail!=null) {
                 mLastLocation = location;
                 //Place current location marker
                 LastCoordinates = new LatLng(location.getLatitude(), location.getLongitude());
-        /*MarkerOptions markerOptions = new MarkerOptions();
-        markerOptions.position(latLng);
-        markerOptions.title("Posicion actual para Polshu.");
-        mCurrLocationMarker = mMap.addMarker(markerOptions);*/
-                mMap.clear();
+
+
                 drawCircle(LastCoordinates, "#3684D7");
                 Log.d("latlngformat", LastCoordinates.toString());
 
@@ -505,7 +463,7 @@ String Linea;
                     LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
                 }
 
-            }
+            //}
         }
         @Override
         public void onConnectionFailed(ConnectionResult connectionResult) {
@@ -576,6 +534,54 @@ String Linea;
 
                 // other 'case' lines to check for other permissions this app might request.
                 // You can add here other case statements according to your requirement.
+            }
+        }
+        public void DibujarPoli(){
+            try {
+                Intent intent = getIntent();
+                Log.d("Dibujo", "1");
+                Bundle b = intent.getExtras();
+                if (b != null) {
+                    Linea lineaPicked = (Linea) b.get("linea");
+                    Linea = lineaPicked.nombre;
+                    Log.d("Dibujo", lineaPicked.nombre);
+                    PathJSONParser p = new PathJSONParser();
+                    List<LatLng> list = p.decodePoly(lineaPicked.polyline);
+                    List<HashMap<String, String>> path = new ArrayList<HashMap<String, String>>();
+                    for (int l = 0; l < list.size(); l++) {
+                        HashMap<String, String> hm = new HashMap<String, String>();
+                        hm.put("lat",
+                                Double.toString(((LatLng) list.get(l)).latitude));
+                        hm.put("lng",
+                                Double.toString(((LatLng) list.get(l)).longitude));
+                        path.add(hm);
+                        listpoints = new ArrayList<>();
+                        PolylineOptions pOptions = new PolylineOptions();
+                        
+
+                        mMap.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(34.59972222,58.38194444)));
+                        // traversing through routes
+                        for (int j = 0; j < path.size(); j++) {
+                            HashMap<String, String> point = path.get(j);
+                            double lat = Double.parseDouble(point.get("lat"));
+                            double lng = Double.parseDouble(point.get("lng"));
+                            LatLng position = new LatLng(lat, lng);
+                            Log.d("Dibujo", "4");
+                            listpoints.add(position);
+                            Log.d("Dibujo", "5");
+                        }
+
+                        pOptions.addAll(listpoints);
+                        Log.d("Dibujo", "6");
+                        pOptions.width(4);
+                        pOptions.color(Color.BLUE);
+                        mMap.addPolyline(pOptions);
+                        Log.d("Dibujo", "7");
+                    }
+                }
+            }catch(Exception e){
+                Log.e("Excepcion", e.getMessage());
+                Toast.makeText(this, "Al menos llega", Toast.LENGTH_SHORT).show();
             }
         }
 
@@ -685,6 +691,7 @@ String Linea;
                                                 Linea ObjLinea = new Linea();
                                                 ObjLinea.nombre = currentline.getString("short_name");
                                                 ObjLinea.polyline=currentStep.getJSONObject("polyline").getString("points");
+                                                ObjLinea.tiempollegada=currentDetails.getJSONObject("arrival_time").getString("text");
                                                 Log.d("TATO 2.4", ObjLinea.nombre);
                                                 Log.d("TATO", String.valueOf(u) + "-"+ String.valueOf(h));
                                                 ListaLineas.add(ObjLinea);
@@ -715,6 +722,7 @@ Log.d("ERRORPARSEO", String.valueOf(Thread.currentThread().getStackTrace()[0].ge
                 Intent intent=new Intent(NavigationDrawerActivity.this, LineasActivity.class);
                 intent.putExtra("list", ListaLineas);
                 startActivity(intent);
+                finish();
             }
 
         }
