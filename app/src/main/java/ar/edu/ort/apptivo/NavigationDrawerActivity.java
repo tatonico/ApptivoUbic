@@ -42,7 +42,6 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
@@ -73,6 +72,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
         LocationListener {
     private GoogleMap mMap;
     ArrayList<Linea> ListaLineas = new ArrayList<>();
+    ArrayList<LatLng> points;
     GoogleApiClient mGoogleApiClient;
     Location mLastLocation;
     Marker mCurrLocationMarker;
@@ -95,6 +95,48 @@ public class NavigationDrawerActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
         ObtenerRef();
         ClickListeners();
+        try {
+            final Intent intent = getIntent();
+            Log.d("Dibujo", "1");
+            Bundle b = intent.getExtras();
+            if (b != null) {
+                Linea lineaPicked = (Linea) b.get("linea");
+                Log.d("Dibujo", lineaPicked.nombre);
+                PathJSONParser p = new PathJSONParser();
+                List<LatLng> list = p.decodePoly(lineaPicked.polyline);
+                List<HashMap<String, String>> path = new ArrayList<HashMap<String, String>>();
+                for (int l = 0; l < list.size(); l++) {
+                    HashMap<String, String> hm = new HashMap<String, String>();
+                    hm.put("lat",
+                            Double.toString(((LatLng) list.get(l)).latitude));
+                    hm.put("lng",
+                            Double.toString(((LatLng) list.get(l)).longitude));
+                    path.add(hm);
+                    points = null;
+                    PolylineOptions pOptions = null;
+
+
+                    // traversing through routes
+                    for (int j = 0; j < path.size(); j++) {
+                        HashMap<String, String> point = path.get(j);
+                        double lat = Double.parseDouble(point.get("lat"));
+                        double lng = Double.parseDouble(point.get("lng"));
+                        LatLng position = new LatLng(lat, lng);
+                        points.add(position);
+                        Log.d("Dibujo", "5");
+                    }
+
+                    pOptions.addAll(points);
+                    Log.d("Dibujo", "6");
+                    pOptions.width(4);
+                    pOptions.color(Color.BLUE);
+                    mMap.addPolyline(pOptions);
+                    Log.d("Dibujo", "7");
+                }
+            }
+        }catch(Exception e){
+            Toast.makeText(this, "Al menos llega", Toast.LENGTH_SHORT).show();
+        }
 
 
 
