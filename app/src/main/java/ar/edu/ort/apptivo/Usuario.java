@@ -7,8 +7,8 @@ package ar.edu.ort.apptivo;
 public class Usuario {
     public String Nombre;
     public Integer Id;
-    public String Contrasena;
+    public String Contraseña;
     public String Apellido;
     public String Sexo;
-    public String Mail;
+    public String Email;
 }

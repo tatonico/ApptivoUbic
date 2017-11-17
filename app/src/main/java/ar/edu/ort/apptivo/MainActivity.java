@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }catch(Exception e)
             {
-                Toast.makeText(MainActivity.this, us.Mail, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, us.Email, Toast.LENGTH_SHORT).show();
             }
         }
         @Override

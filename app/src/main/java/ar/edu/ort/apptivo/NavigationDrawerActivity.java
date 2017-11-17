@@ -13,7 +13,6 @@ import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
@@ -44,11 +43,8 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
-import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -88,8 +84,10 @@ public class NavigationDrawerActivity extends AppCompatActivity
     LatLng LastCoordinates;
     JSONArray Vec;
     String SelectedLine;
-    CountDownTimer timer;
+    Linea lineaPicked;
+    Bundle b;
 String Linea;
+    int subido;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -99,12 +97,22 @@ String Linea;
         setSupportActionBar(toolbar);
         ObtenerRef();
         ClickListeners();
+        Intent intent = getIntent();
+        b = intent.getExtras();
+        if (b != null) {
+            lineaPicked = (Linea) b.get("linea");
+        }
 
 
+
+
+
+        
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         morph = (FABToolbarLayout) findViewById(R.id.fabtoolbar);
+
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -114,7 +122,6 @@ String Linea;
                 morph.hide();
             }
         });
-        morph.hide();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -162,9 +169,16 @@ String Linea;
                 Toast.makeText(NavigationDrawerActivity.this, "Usted ya se encuentra en un colectivo.", Toast.LENGTH_SHORT).show();
             }
             else {
+                if(lineaPicked.nombre!=null)
+                {
                 Toast.makeText(NavigationDrawerActivity.this, "Gracias por avisar que se ha subico.", Toast.LENGTH_SHORT).show();
+                    new SendTask().execute(StaticItem.Email, String.valueOf( LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
+                            "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", lineaPicked.nombre);
                 boolArriba = true;
-                timer = new CountDownTimer(5000, 20) {
+                }else{
+                    Toast.makeText(NavigationDrawerActivity.this, "No selecciono linea.", Toast.LENGTH_SHORT).show();
+                }
+                /*timer = new CountDownTimer(5000, 20) {
 
                     @Override
                     public void onTick(long millisUntilFinished) {
@@ -173,13 +187,9 @@ String Linea;
 
                     @Override
                     public void onFinish() {
-                        try{
-                            SendCoordinates(Linea);
-                        }catch(Exception e){
-                            Log.e("Error", "Error: " + e.toString());
-                        }
+
                     }
-                }.start();
+                }.start();*/
             }
         }
     };
@@ -190,9 +200,13 @@ String Linea;
         {
             morph.hide();
             if (boolArriba) {
-                Toast.makeText(NavigationDrawerActivity.this, "Gracias por indicar que ya no esta en el colectivo", Toast.LENGTH_SHORT).show();
-                boolArriba= false;
-                timer.cancel();
+                if(!lineaPicked.nombre.equals("")) {
+                    Toast.makeText(NavigationDrawerActivity.this, "Gracias por indicar que ya no esta en el colectivo", Toast.LENGTH_SHORT).show();
+                    boolArriba = false;
+                    new BajoTask().execute("http://apptivodatabase.azurewebsites.net/api/API/SeBajo/", StaticItem.Email);
+                } else {
+                    Toast.makeText(NavigationDrawerActivity.this, "Usted no habia seleccionado linea.", Toast.LENGTH_SHORT).show();
+                }
             }
             else {
                 Toast.makeText(NavigationDrawerActivity.this, "Usted no esta en un colectivo.", Toast.LENGTH_SHORT).show();
@@ -216,20 +230,11 @@ String Linea;
                                     LatLng latlngPartida = getLocationFromAddress(NavigationDrawerActivity.this, edtpartida.getText().toString());
                                     Log.i("Number", "5");
                                     LatLng latlngLlegada = getLocationFromAddress(NavigationDrawerActivity.this, edtllegada.getText().toString());
-                                    Log.i("Number", "6 pollo queso lechuga tomate");
+                                    Log.i("Number", "6");
                                     mMap.clear();
                             /*drawCircle(latlngLlegada, "#E41436");
                             drawCircle(latlngPartida, "#30BA59");*/
 
-                                    Log.i("Number", "1");
-                                    mMap.addMarker(new MarkerOptions()
-                                            .position(latlngPartida)
-                                            .title("Partida"));
-                                    Log.i("Number", "2");
-                                    mMap.addMarker(new MarkerOptions()
-                                            .position(latlngLlegada)
-                                            .title("Llegada"));
-                                    Log.i("Number", "3");
                                     DibujarCamino(latlngPartida, latlngLlegada);
 
                                 }
@@ -256,6 +261,8 @@ String Linea;
         }
 
     };
+
+
 
         public LatLng getLocationFromAddress(Context context, String strAddress) {
             Geocoder coder = new Geocoder(context);
@@ -354,6 +361,7 @@ String Linea;
                 mMap.setMyLocationEnabled(true);
             }
             DibujarPoli();
+            mMap.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(34.59972222,58.38194444)));
         }
 
         protected synchronized void buildGoogleApiClient() {
@@ -364,13 +372,38 @@ String Linea;
                     .build();
             mGoogleApiClient.connect();
         }
-    public void SendCoordinates(String linea){
-        if (boolArriba){
-        new SendTask().execute(StaticItem.Mail, String.valueOf( LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
-                "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", linea);
+
+
+    private class BajoTask extends AsyncTask<String, Void, String> {
+
+        protected void onPostExecute(String confirmacion) {
+            super.onPostExecute(confirmacion);
+            if (confirmacion == "Good"){
+                Log.i("Se bajo", "GOOD ");
+            }else{
+                Log.i("Se bajo", "BAD");
+            }
         }
-        timer.start();
+        @Override
+        protected String doInBackground(String... parametros) {
+            OkHttpClient client = new OkHttpClient();
+            String Url= parametros[0] + parametros[1];
+            Request request = new Request.Builder()
+                    .url(Url)
+                    .build();
+            try {
+                Response response = client.newCall(request).execute();  // Llamo al API Rest servicio1 en localhost
+                String resultado = response.body().string();
+                return resultado;
+            } catch (IOException e) {
+                Log.d("Error",e.getMessage());             // Error de Network
+                return e.getMessage();
+            }
+        }
     }
+
+
+
     private class SendTask extends AsyncTask<String, Void, String> {
 
         protected void onPostExecute(String confirmacion) {
@@ -384,7 +417,7 @@ String Linea;
         @Override
         protected String doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[3] + parametros[0] +"/"+parametros[4] + "/" + parametros[2]+"/"+ parametros[3] ;
+            String Url= parametros[3] + parametros[0] +"/"+parametros[4] + "/" + parametros[1]+"/"+ parametros[2] ;
             Request request = new Request.Builder()
                     .url(Url)
                     .build();
@@ -433,10 +466,19 @@ String Linea;
                 Log.d("latlngformat", LastCoordinates.toString());
 
                 //move map camera
-                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(LastCoordinates, 15));
+            LatLng lt= new LatLng(-34.599160, -58.450700);
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(lt, 12));
         /*mMap.moveCamera(CameraUpdateFactory.newLatLng(latLng));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(14));*/
-
+            if (boolArriba) {
+                try {
+                    new SendTask().execute(StaticItem.Email, String.valueOf( LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
+                            "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", lineaPicked.nombre);
+                    subido=0;
+                } catch (Exception e) {
+                    Log.e("Error", "Error: " + e.toString());
+                }
+            }
                 //stop location updates
                 if (mGoogleApiClient != null) {
                     LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
@@ -522,10 +564,41 @@ String Linea;
             super.onPostExecute(confirmacion);
             try {
                 Vec = new JSONArray(confirmacion);
+                Log.d("Nuevo", "2");
+                final int lenght= Vec.length();
+                for (int i =0 ; i<lenght; i++)
+                {
+                    Log.d("Nuevo", "1");
+                    JSONObject jsonObject1 = Vec.getJSONObject(i);
+                    Log.d("Nuevo", "3");
+                    String val1 = jsonObject1.getString("Lat");
+                    String val2 = jsonObject1.getString("Lng");
+                    double value1= Double.parseDouble(val1);
+                    double value2= Double.parseDouble(val2);
+                    LatLng pnt = new LatLng(value1,value2);
+                    drawCircle(pnt);
+                }
             }
             catch(JSONException e) {
-
+            Log.e("Errornuevo", e.getMessage());
             }
+        }
+        private void drawCircle(LatLng point){
+            // Instantiating CircleOptions to draw a circle around the marker
+            CircleOptions circleOptions = new CircleOptions();
+            // Specifying the center of the circle
+            circleOptions.center(point);
+            // Radius of the circle
+            circleOptions.radius(50);
+            // Border color of the circle
+            circleOptions.strokeColor(Color.BLACK);
+            // Fill color of the circle
+            circleOptions.fillColor(Color.BLACK);
+            // Border width of the circle
+            circleOptions.strokeWidth(5);
+            // Adding the circle to the GoogleMap
+            mMap.addCircle(circleOptions);
+
         }
         @Override
         protected String doInBackground(String... parametros) {
@@ -550,11 +623,7 @@ String Linea;
 
         public void DibujarPoli(){
             try {
-                Intent intent = getIntent();
-                Log.d("Dibujo", "1");
-                Bundle b = intent.getExtras();
                 if (b != null) {
-
                     Linea lineaPicked = (Linea) b.get("linea");
                     MarcarPuntosxLinea(lineaPicked.nombre);
                     Linea = lineaPicked.nombre;
@@ -571,9 +640,8 @@ String Linea;
                         path.add(hm);
                         listpoints = new ArrayList<>();
                         PolylineOptions pOptions = new PolylineOptions();
-                        
 
-                        mMap.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(34.59972222,58.38194444)));
+
                         // traversing through routes
                         for (int j = 0; j < path.size(); j++) {
                             HashMap<String, String> point = path.get(j);
@@ -591,6 +659,7 @@ String Linea;
                         pOptions.color(Color.BLUE);
                         mMap.addPolyline(pOptions);
                         Log.d("Dibujo", "7");
+                        //mMap.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(34.59972222,58.38194444)));
                     }
                 }
             }catch(Exception e){
