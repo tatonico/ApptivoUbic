@@ -51,6 +51,7 @@ import com.google.android.gms.maps.model.PolylineOptions;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -85,6 +86,7 @@ public class NavigationDrawerActivity extends AppCompatActivity
     ImageView uno,dos,tres,cuatro;
     boolean boolArriba= false;
     LatLng LastCoordinates;
+    JSONArray Vec;
     String SelectedLine;
     CountDownTimer timer;
 String Linea;
@@ -513,9 +515,39 @@ String Linea;
                 // You can add here other case statements according to your requirement.
             }
         }
+    private class CoordenadasxLineaTask extends AsyncTask<String, Void, String> {
+
+        protected void onPostExecute(String confirmacion) {
+
+            super.onPostExecute(confirmacion);
+            try {
+                Vec = new JSONArray(confirmacion);
+            }
+            catch(JSONException e) {
+
+            }
+        }
+        @Override
+        protected String doInBackground(String... parametros) {
+            OkHttpClient client = new OkHttpClient();
+            String Url= parametros[0] + parametros[1] ;
+            Request request = new Request.Builder()
+                    .url(Url)
+                    .build();
+            try {
+                Response response = client.newCall(request).execute();
+                String resultado = response.body().string();
+                return resultado;
+            } catch (IOException e) {
+                Log.d("Error",e.getMessage());
+                return e.getMessage();
+            }
+        }
+    }
         public void MarcarPuntosxLinea(String strLinea){
             new CoordenadasxLineaTask().execute("http://apptivodatabase.azurewebsites.net/api/api/CoordenadasxLinea/", strLinea);
         }
+
         public void DibujarPoli(){
             try {
                 Intent intent = getIntent();
@@ -739,31 +771,6 @@ Log.d("ERRORPARSEO", String.valueOf(Thread.currentThread().getStackTrace()[0].ge
 
             }
         }
-    private class CoordenadasxLineaTask extends AsyncTask<String, Void, String> {
-
-
-
-        protected void onPostExecute(String confirmacion) {
-            super.onPostExecute(confirmacion);
-            JSONArray Vec= new JSONArray();
-        }
-        @Override
-        protected String doInBackground(String... parametros) {
-            OkHttpClient client = new OkHttpClient();
-            String Url= parametros[0] + parametros[1] ;
-            Request request = new Request.Builder()
-                    .url(Url)
-                    .build();
-            try {
-                Response response = client.newCall(request).execute();
-                String resultado = response.body().string();
-                return resultado;
-            } catch (IOException e) {
-                Log.d("Error",e.getMessage());
-                return e.getMessage();
-            }
-        }
-    }
 
 
         public class PathJSONParser {
