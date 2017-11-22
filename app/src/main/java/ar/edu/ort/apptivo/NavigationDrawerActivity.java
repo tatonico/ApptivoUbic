@@ -172,7 +172,25 @@ String Linea;
                 if(lineaPicked.nombre!=null)
                 {
                 Toast.makeText(NavigationDrawerActivity.this, "Gracias por avisar que se ha subico.", Toast.LENGTH_SHORT).show();
-                    new SendTask().execute(StaticItem.Email, String.valueOf( LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
+                        String SendLat = String.valueOf( LastCoordinates.latitude);
+                if (SendLat.substring(0) =="-")
+                {
+                SendLat.substring(3) = ",";
+                }
+                else
+                {
+                SendLat.substring(2) = ",";
+                }
+                String SendLng = String.valueOf( LastCoordinates.longitude);
+                if (SendLat.substring(0) =="-")
+                {
+                SendLat.substring(3) = ",";
+                }
+                else
+                {
+                SendLat.substring(2) = ",";
+                }
+                    new SendTask().execute(StaticItem.Email, SendLat, SendLng,
                             "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", lineaPicked.nombre);
                 boolArriba = true;
                 }else{
