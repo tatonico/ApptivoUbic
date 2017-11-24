@@ -231,7 +231,7 @@ String Linea;
                 if(!lineaPicked.nombre.equals("")) {
                     Toast.makeText(NavigationDrawerActivity.this, "Gracias por indicar que ya no esta en el colectivo", Toast.LENGTH_SHORT).show();
                     boolArriba = false;
-                    new BajoTask().execute("http://apptivodatabase.azurewebsites.net/api/API/SeBajo/", StaticItem.Email);
+                    new BajoTask().execute("http://apptivodatabase.azurewebsites.net/api/api/SeBajo/", StaticItem.Email);
                 } else {
                     Toast.makeText(NavigationDrawerActivity.this, "Usted no habia seleccionado linea.", Toast.LENGTH_SHORT).show();
                 }
@@ -438,7 +438,8 @@ String Linea;
         @Override
         protected String doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
-            String Url= parametros[0] + parametros[1];
+            String Url= parametros[0] + parametros[1] + "/asd";
+            Log.d("BAJO", Url);
             Request request = new Request.Builder()
                     .url(Url)
                     .build();

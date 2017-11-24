@@ -6,22 +6,22 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1511493755942"
+    timestamp="1511527478493"
     token="-7233335042114650004"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2925" />
+        duration="1738" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="7" />
+        duration="11" />
     <task
         name="verifier"
-        duration="3" />
+        duration="7" />
 
     <artifact
         location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1511491325155"
+        timestamp="1511521755958"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -53,6 +53,9 @@
             location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
+            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
@@ -62,15 +65,12 @@
             location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\ApptivoUbic\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1511493755942"
+        timestamp="1511527478493"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\ApptivoUbic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
