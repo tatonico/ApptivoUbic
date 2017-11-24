@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_pause_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xhdpi\\ic_pause_dark.png"
-    },
-    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_media_route_disabled_mono_dark.png",
         "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xhdpi\\ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_pause_dark.png",
+        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xhdpi\\ic_pause_dark.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_play_light.png",
@@ -24,12 +24,12 @@
         "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xhdpi\\ic_setting_light.png"
     },
     {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
-    },
-    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_plusone_standard_off_client.png",
         "source": "C:\\Users\\tato_\\.android\\build-cache\\b8ad099774cfea6787bc3d4d796663bd09481405\\output\\res\\drawable-xhdpi\\ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png",
+        "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-xhdpi\\common_plus_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\common_plus_signin_btn_icon_dark_pressed.9.png",

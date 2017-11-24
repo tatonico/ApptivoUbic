@@ -1,4 +1,4 @@
-#Fri Nov 17 02:45:47 ART 2017
+#Thu Nov 23 23:42:47 ART 2017
 file.9=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0f4aadb0605f77bd73e6d5bf05822ae61cdad775\\classes.dex
 base.10=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_52b48d176caccb5f7a89b7aaf2c47b9286f85773
 file.8=C\:\\ApptivoUbic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_71c01c418c78b52c157f6c9f21a05c4534f5866a\\classes.dex

@@ -173,22 +173,30 @@ String Linea;
                 {
                 Toast.makeText(NavigationDrawerActivity.this, "Gracias por avisar que se ha subico.", Toast.LENGTH_SHORT).show();
                         String SendLat = String.valueOf( LastCoordinates.latitude);
-                if (SendLat.substring(0) =="-")
+                if (SendLat.contains("-"))
                 {
-                SendLat.substring(3) = ",";
+                    char[] myNameChars = SendLat.toCharArray();
+                    myNameChars[3] = ',';
+                    SendLat = String.valueOf(myNameChars);
                 }
                 else
                 {
-                SendLat.substring(2) = ",";
+                    char[] myNameChars = SendLat.toCharArray();
+                    myNameChars[2] = ',';
+                    SendLat = String.valueOf(myNameChars);
                 }
                 String SendLng = String.valueOf( LastCoordinates.longitude);
-                if (SendLat.substring(0) =="-")
+                if (SendLng.contains("-"))
                 {
-                SendLat.substring(3) = ",";
+                    char[] myNameChars = SendLng.toCharArray();
+                    myNameChars[3] = ',';
+                    SendLng = String.valueOf(myNameChars);
                 }
                 else
                 {
-                SendLat.substring(2) = ",";
+                    char[] myNameChars = SendLng.toCharArray();
+                    myNameChars[2] = ',';
+                    SendLng = String.valueOf(myNameChars);
                 }
                     new SendTask().execute(StaticItem.Email, SendLat, SendLng,
                             "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", lineaPicked.nombre);
@@ -279,7 +287,6 @@ String Linea;
         }
 
     };
-
 
 
         public LatLng getLocationFromAddress(Context context, String strAddress) {
@@ -436,6 +443,7 @@ String Linea;
         protected String doInBackground(String... parametros) {
             OkHttpClient client = new OkHttpClient();
             String Url= parametros[3] + parametros[0] +"/"+parametros[4] + "/" + parametros[1]+"/"+ parametros[2] ;
+            Log.i("URLTASK", Url);
             Request request = new Request.Builder()
                     .url(Url)
                     .build();
@@ -589,10 +597,85 @@ String Linea;
                     Log.d("Nuevo", "1");
                     JSONObject jsonObject1 = Vec.getJSONObject(i);
                     Log.d("Nuevo", "3");
-                    String val1 = jsonObject1.getString("Lat");
-                    String val2 = jsonObject1.getString("Lng");
-                    double value1= Double.parseDouble(val1);
-                    double value2= Double.parseDouble(val2);
+                    String val1="";
+                    try{
+                         val1 = jsonObject1.getString("Lat");
+                    }catch(Exception e) {
+                        Toast.makeText(NavigationDrawerActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                    boolean CONTIENE;
+                    if (val1.contains("-"))
+                    {
+                        CONTIENE = true;
+                    }
+                    else{
+                        CONTIENE = false;
+                    }
+                    String nuevo1= "";
+
+                    for (int h = 0; h < val1.length(); h++)
+                    {
+                        if(CONTIENE)
+                        {
+                            //Deberia estar en el char 3  --> -34.2323
+                            if(h==2){
+                                nuevo1 += String.valueOf(val1.charAt(h)) + ".";
+                                //si i vale 2 osea TEXT[i] = 4 le agrega ademas el punto atras
+                            }
+                            else{
+                                nuevo1 += String.valueOf(val1.charAt(h));
+                            }
+                        }else{
+                            //Esta en el char 2  --> 34.2323
+                            if(h==1){
+                                nuevo1 += String.valueOf(val1.charAt(h)) + ".";
+                                //si i vale 1 osea TEXT[i] = 4 le agrega ademas el punto atras
+                            }else{
+                                nuevo1 += String.valueOf(val1.charAt(h));
+                            }
+                        }
+                    }
+                    String val2="";
+                    try{
+                        val2 = jsonObject1.getString("Lng");
+                    }catch(Exception e) {
+                        Toast.makeText(NavigationDrawerActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+
+                    boolean CONTIENE2;
+                    if (val2.contains("-"))
+                    {
+                        CONTIENE2 = true;
+                    }
+                    else{
+                        CONTIENE2 = false;
+                    }
+                    String nuevo2= "";
+
+                    for (int e = 0; e < val2.length(); e++)
+                    {
+                        if(CONTIENE2)
+                        {
+                            //Deberia estar en el char 3  --> -34.2323
+                            if(e==2){
+                                nuevo2 += String.valueOf(val2.charAt(e)) + ".";
+                                //si i vale 2 osea TEXT[i] = 4 le agrega ademas el punto atras
+                            }
+                            else{
+                                nuevo2 += String.valueOf(val2.charAt(e));
+                            }
+                        }else{
+                            //Esta en el char 2  --> 34.2323
+                            if(e==1){
+                                nuevo2 += String.valueOf(val2.charAt(e)) + ".";
+                                //si i vale 1 osea TEXT[i] = 4 le agrega ademas el punto atras
+                            }else{
+                                nuevo2 += String.valueOf(val2.charAt(e));
+                            }
+                        }
+                    }
+                    double value1= Double.parseDouble(nuevo1);
+                    double value2= Double.parseDouble(nuevo2);
                     LatLng pnt = new LatLng(value1,value2);
                     drawCircle(pnt);
                 }

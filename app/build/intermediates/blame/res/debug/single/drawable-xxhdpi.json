@@ -4,20 +4,20 @@
         "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xxhdpi\\ic_media_route_disabled_mono_dark.png"
     },
     {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cast_on_2_light.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xxhdpi\\ic_cast_on_2_light.png"
-    },
-    {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cast_off_light.png",
         "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xxhdpi\\ic_cast_off_light.png"
     },
     {
-        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_setting_dark.png",
-        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xxhdpi\\ic_setting_dark.png"
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_cast_on_2_light.png",
+        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xxhdpi\\ic_cast_on_2_light.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png",
         "source": "C:\\Users\\tato_\\.android\\build-cache\\a4c83769a6450897022ed45c48abbeefccccb444\\output\\res\\drawable-xxhdpi\\common_plus_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_setting_dark.png",
+        "source": "C:\\Users\\tato_\\.android\\build-cache\\9c409337cc41becfeef362dd69fdec77895bdfb2\\output\\res\\drawable-xxhdpi\\ic_setting_dark.png"
     },
     {
         "merged": "C:\\ApptivoUbic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_media_route_off_mono_dark.png",
