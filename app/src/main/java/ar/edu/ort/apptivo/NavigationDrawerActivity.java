@@ -59,6 +59,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -386,6 +388,30 @@ String Linea;
                 mMap.setMyLocationEnabled(true);
             }
             DibujarPoli();
+            final Timer timer= new Timer();
+            TimerTask timerTask= new TimerTask() {
+                @Override
+                public void run() {
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            if (boolArriba) {
+                                try {
+                                    new SendTask().execute(StaticItem.Email, String.valueOf( LastCoordinates.latitude), String.valueOf(LastCoordinates.longitude ),
+                                            "http://apptivodatabase.azurewebsites.net/api/api/Coordenadas/", lineaPicked.nombre);
+                                    Log.d("ErrorTimer", "jewjewjewj");
+                                } catch (Exception e) {
+                                    Log.e("ErrorTimer", "Error: " + e.toString());
+                                }
+                            }
+                        }
+                    });
+                }
+            };
+            timer.schedule(timerTask,0,500);
+
+            //TIMER TOD EL TIEMPO QUE SI VARIABLE boolARRIBA es true haga sendtask y si no que no haga nada
+
             mMap.animateCamera(CameraUpdateFactory.newLatLng(new LatLng(34.59972222,58.38194444)));
         }
 
@@ -604,7 +630,7 @@ String Linea;
                         Toast.makeText(NavigationDrawerActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                     boolean CONTIENE;
-                    if (val1.contains("-"))
+                    if (val1.contains("."))
                     {
                         CONTIENE = true;
                     }
@@ -618,20 +644,23 @@ String Linea;
                         if(CONTIENE)
                         {
                             //Deberia estar en el char 3  --> -34.2323
-                            if(h==2){
-                                nuevo1 += String.valueOf(val1.charAt(h)) + ".";
-                                //si i vale 2 osea TEXT[i] = 4 le agrega ademas el punto atras
-                            }
-                            else{
-                                nuevo1 += String.valueOf(val1.charAt(h));
+                            if (!String.valueOf(val1.charAt(h)).contains(".")&&!String.valueOf(val1.charAt(h)).contains("E")) {
+                                if (h == 3) {
+                                    nuevo1 += String.valueOf(val1.charAt(h)) + ".";
+                                    //si i vale 2 osea TEXT[i] = 4 le agrega ademas el punto atras
+                                } else {
+                                    nuevo1 += String.valueOf(val1.charAt(h));
+                                }
                             }
                         }else{
                             //Esta en el char 2  --> 34.2323
-                            if(h==1){
-                                nuevo1 += String.valueOf(val1.charAt(h)) + ".";
-                                //si i vale 1 osea TEXT[i] = 4 le agrega ademas el punto atras
-                            }else{
-                                nuevo1 += String.valueOf(val1.charAt(h));
+                            if (!String.valueOf(val1.charAt(h)).contains(".")&&!String.valueOf(val1.charAt(h)).contains("E")) {
+                                if (h == 2) {
+                                    nuevo1 += String.valueOf(val1.charAt(h)) + ".";
+                                    //si i vale 1 osea TEXT[i] = 4 le agrega ademas el punto atras
+                                } else {
+                                    nuevo1 += String.valueOf(val1.charAt(h));
+                                }
                             }
                         }
                     }
@@ -643,7 +672,7 @@ String Linea;
                     }
 
                     boolean CONTIENE2;
-                    if (val2.contains("-"))
+                    if (val2.contains("."))
                     {
                         CONTIENE2 = true;
                     }
@@ -657,20 +686,23 @@ String Linea;
                         if(CONTIENE2)
                         {
                             //Deberia estar en el char 3  --> -34.2323
-                            if(e==2){
-                                nuevo2 += String.valueOf(val2.charAt(e)) + ".";
-                                //si i vale 2 osea TEXT[i] = 4 le agrega ademas el punto atras
-                            }
-                            else{
-                                nuevo2 += String.valueOf(val2.charAt(e));
+                            if (!String.valueOf(val2.charAt(e)).contains(".")&&!String.valueOf(val2.charAt(e)).contains("E")) {
+                                if (e == 3) {
+                                    nuevo2 += String.valueOf(val2.charAt(e)) + ".";
+                                    //si i vale 2 osea TEXT[i] = 4 le agrega ademas el punto atras
+                                } else {
+                                    nuevo2 += String.valueOf(val2.charAt(e));
+                                }
                             }
                         }else{
                             //Esta en el char 2  --> 34.2323
-                            if(e==1){
-                                nuevo2 += String.valueOf(val2.charAt(e)) + ".";
-                                //si i vale 1 osea TEXT[i] = 4 le agrega ademas el punto atras
-                            }else{
-                                nuevo2 += String.valueOf(val2.charAt(e));
+                            if (!String.valueOf(val2.charAt(e)).contains(".")&&!String.valueOf(val2.charAt(e)).contains("E")) {
+                                if (e == 2) {
+                                    nuevo2 += String.valueOf(val2.charAt(e)) + ".";
+                                    //si i vale 1 osea TEXT[i] = 4 le agrega ademas el punto atras
+                                } else {
+                                    nuevo2 += String.valueOf(val2.charAt(e));
+                                }
                             }
                         }
                     }
@@ -684,6 +716,8 @@ String Linea;
             Log.e("Errornuevo", e.getMessage());
             }
         }
+
+
         private void drawCircle(LatLng point){
             // Instantiating CircleOptions to draw a circle around the marker
             CircleOptions circleOptions = new CircleOptions();
