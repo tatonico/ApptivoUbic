@@ -1137,6 +1137,7 @@ int layout support_simple_spinner_dropdown_item 0x7f04003f
 int menu activity_navigation_drawer_drawer 0x7f0e0000
 int menu navigation_drawer 0x7f0e0001
 int mipmap ic_launcher 0x7f030000
+int mipmap icono 0x7f030001
 int raw gtm_analytics 0x7f060000
 int string abc_action_bar_home_description 0x7f070000
 int string abc_action_bar_home_description_format 0x7f070001
