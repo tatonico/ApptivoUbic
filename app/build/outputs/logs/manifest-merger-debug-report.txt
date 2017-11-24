@@ -84,7 +84,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ad
 	android:allowBackup
 		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:22:9-35
 	android:icon
-		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:23:9-43
+		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:23:9-37
 	android:theme
 		ADDED from C:\ApptivoUbic\app\src\main\AndroidManifest.xml:26:9-40
 activity#ar.edu.ort.apptivo.MainActivity
