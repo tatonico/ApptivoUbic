@@ -31,7 +31,6 @@ public class LineasActivity extends AppCompatActivity {
         {
             j =(ArrayList)b.get("list");
         }
-//tatonico luciana321321 tato_izraelski@hotmail.com
 
 
 
